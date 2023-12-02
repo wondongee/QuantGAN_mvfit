@@ -1,0 +1,1109 @@
+2023-10-23 12:52:03,169 INFO    StreamThr :803228 [internal.py:wandb_internal():86] W&B internal server running at pid: 803228, started at: 2023-10-23 12:52:03.168919
+2023-10-23 12:52:03,172 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status
+2023-10-23 12:52:03,181 INFO    WriterThread:803228 [datastore.py:open_for_write():85] open: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/run-ooy66q75.wandb
+2023-10-23 12:52:03,182 DEBUG   SenderThread:803228 [sender.py:send():380] send: header
+2023-10-23 12:52:03,190 DEBUG   SenderThread:803228 [sender.py:send():380] send: run
+2023-10-23 12:52:08,199 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-23 12:52:08,724 INFO    SenderThread:803228 [dir_watcher.py:__init__():211] watching files in: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files
+2023-10-23 12:52:08,724 INFO    SenderThread:803228 [sender.py:_start_run_threads():1122] run started: ooy66q75 with start time 1698065523.169219
+2023-10-23 12:52:08,724 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:52:08,743 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: check_version
+2023-10-23 12:52:08,743 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: check_version
+2023-10-23 12:52:13,744 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-23 12:52:13,745 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:52:13,794 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: run_start
+2023-10-23 12:52:13,828 DEBUG   HandlerThread:803228 [system_info.py:__init__():32] System info init
+2023-10-23 12:52:13,828 DEBUG   HandlerThread:803228 [system_info.py:__init__():47] System info init done
+2023-10-23 12:52:13,829 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 12:52:13,829 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 12:52:13,829 INFO    HandlerThread:803228 [system_monitor.py:probe():214] Collecting system info
+2023-10-23 12:52:13,830 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 12:52:13,832 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 12:52:13,833 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started gpu monitoring
+2023-10-23 12:52:13,835 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 12:52:13,837 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started network monitoring
+2023-10-23 12:52:13,898 DEBUG   HandlerThread:803228 [system_info.py:probe():196] Probing system
+2023-10-23 12:52:13,899 DEBUG   HandlerThread:803228 [system_info.py:_probe_git():181] Probing git
+2023-10-23 12:52:13,908 DEBUG   HandlerThread:803228 [system_info.py:_probe_git():189] Probing git done
+2023-10-23 12:52:13,908 DEBUG   HandlerThread:803228 [system_info.py:probe():244] Probing system done
+2023-10-23 12:52:13,908 DEBUG   HandlerThread:803228 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-83-generic-x86_64-with-glibc2.27', 'python': '3.10.8', 'heartbeatAt': '2023-10-23T12:52:13.898275', 'startedAt': '2023-10-23T12:52:03.158068', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/wondongee/QuantGAN.git', 'commit': '7a50cebd6a713b6086f4afb121151ccb30eca8c4'}, 'email': 'rdwon415@gmail.com', 'root': '/workspace/QuantGAN', 'host': '173c51123077', 'username': 'root', 'executable': '/opt/conda/bin/python', 'cpu_count': 32, 'cpu_count_logical': 64, 'cpu_freq': {'current': 2.873437500000003, 'min': 1200.0, 'max': 3900.0}, 'cpu_freq_per_core': [{'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 1.323, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}, {'current': 2.9, 'min': 1200.0, 'max': 3900.0}], 'disk': {'/': {'total': 459.6391830444336, 'used': 68.72578430175781}}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 251.50527954101562}}
+2023-10-23 12:52:13,908 INFO    HandlerThread:803228 [system_monitor.py:probe():224] Finished collecting system info
+2023-10-23 12:52:13,908 INFO    HandlerThread:803228 [system_monitor.py:probe():227] Publishing system info
+2023-10-23 12:52:13,908 DEBUG   HandlerThread:803228 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-10-23 12:52:13,908 DEBUG   HandlerThread:803228 [system_info.py:_save_pip():68] Saving pip packages done
+2023-10-23 12:52:13,908 DEBUG   HandlerThread:803228 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-10-23 12:52:14,729 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_created():271] file/dir created: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/conda-environment.yaml
+2023-10-23 12:52:14,729 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_created():271] file/dir created: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/requirements.txt
+2023-10-23 12:52:17,564 DEBUG   HandlerThread:803228 [system_info.py:_save_conda():87] Saving conda packages done
+2023-10-23 12:52:17,566 INFO    HandlerThread:803228 [system_monitor.py:probe():229] Finished publishing system info
+2023-10-23 12:52:17,569 DEBUG   SenderThread:803228 [sender.py:send():380] send: files
+2023-10-23 12:52:17,570 INFO    SenderThread:803228 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-10-23 12:52:17,593 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:52:17,593 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:52:17,633 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:52:17,633 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 12:52:17,633 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 12:52:17,633 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 12:52:17,634 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 12:52:17,635 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 12:52:17,635 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 12:52:17,635 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 12:52:17,635 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 12:52:17,718 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-23 12:52:17,718 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 12:52:17,718 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 12:52:17,727 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/conda-environment.yaml
+2023-10-23 12:52:17,728 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_created():271] file/dir created: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/wandb-metadata.json
+2023-10-23 12:52:19,534 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 12:52:19,534 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 12:52:19,534 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 12:52:19,534 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 12:52:19,535 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 12:52:19,536 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 12:52:19,537 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started gpu monitoring
+2023-10-23 12:52:19,540 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 12:52:19,541 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started network monitoring
+2023-10-23 12:52:22,953 DEBUG   SenderThread:803228 [sender.py:send():380] send: telemetry
+2023-10-23 12:52:22,953 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:52:22,953 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 12:52:23,427 INFO    wandb-upload_0:803228 [upload_job.py:push():131] Uploaded file /tmp/tmplt_r3ym9wandb/iblh4o0t-wandb-metadata.json
+2023-10-23 12:52:23,730 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_created():271] file/dir created: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 12:52:25,731 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 12:52:27,958 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:52:32,593 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:52:32,593 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:52:32,594 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:52:33,858 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:52:34,735 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/config.yaml
+2023-10-23 12:52:39,093 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:52:44,094 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:52:47,593 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:52:47,593 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:52:47,634 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:52:49,902 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:52:54,903 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:52:59,904 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:53:02,593 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:53:02,594 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:53:02,634 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:53:05,866 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:53:10,867 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:53:15,868 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:53:17,593 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:53:17,594 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:53:17,634 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:53:19,541 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 12:53:19,544 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 12:53:21,546 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:53:26,547 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:53:31,548 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:53:32,594 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:53:32,594 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:53:32,634 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:53:33,218 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-23 12:53:33,219 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-23 12:53:33,220 DEBUG   SenderThread:803228 [sender.py:send():380] send: history
+2023-10-23 12:53:33,221 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: summary_record
+2023-10-23 12:53:33,223 INFO    SenderThread:803228 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-23 12:53:33,224 DEBUG   SenderThread:803228 [sender.py:send():380] send: history
+2023-10-23 12:53:33,224 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: summary_record
+2023-10-23 12:53:33,225 INFO    SenderThread:803228 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-23 12:53:33,760 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_created():271] file/dir created: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/wandb-summary.json
+2023-10-23 12:53:35,761 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 12:53:37,226 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:53:42,227 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:53:47,228 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:53:47,594 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:53:47,594 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-23 12:53:47,595 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:53:47,595 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:53:49,547 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 12:53:52,549 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:53:57,550 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:54:02,551 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:54:02,594 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:54:02,594 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:54:02,634 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:54:07,893 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:54:12,894 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:54:17,594 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:54:17,595 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:54:17,638 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:54:18,820 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:54:19,549 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 12:54:24,552 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:54:29,553 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:54:32,594 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:54:32,595 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:54:32,638 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:54:34,811 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:54:39,812 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:54:44,813 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:54:46,898 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-23 12:54:46,899 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-23 12:54:46,900 DEBUG   SenderThread:803228 [sender.py:send():380] send: history
+2023-10-23 12:54:46,900 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: summary_record
+2023-10-23 12:54:46,903 INFO    SenderThread:803228 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-23 12:54:46,903 DEBUG   SenderThread:803228 [sender.py:send():380] send: history
+2023-10-23 12:54:46,904 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: summary_record
+2023-10-23 12:54:46,911 INFO    SenderThread:803228 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-23 12:54:47,594 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:54:47,595 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:54:47,595 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:54:47,793 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/wandb-summary.json
+2023-10-23 12:54:47,793 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 12:54:49,552 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 12:54:50,554 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:54:55,555 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:55:00,556 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:55:02,595 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:55:02,595 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:55:02,638 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-23 12:55:02,638 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:55:05,902 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:55:10,903 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:55:15,904 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:55:17,595 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:55:17,595 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:55:17,638 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:55:19,555 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 12:55:21,557 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:55:26,558 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:55:31,559 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:55:32,595 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:55:32,595 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:55:32,638 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:55:36,884 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:55:41,886 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:55:46,886 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:55:47,595 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:55:47,596 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:55:47,638 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:55:49,557 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 12:55:52,559 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:55:57,560 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:56:00,402 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-23 12:56:00,402 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-23 12:56:00,403 DEBUG   SenderThread:803228 [sender.py:send():380] send: history
+2023-10-23 12:56:00,404 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: summary_record
+2023-10-23 12:56:00,407 INFO    SenderThread:803228 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-23 12:56:00,407 DEBUG   SenderThread:803228 [sender.py:send():380] send: history
+2023-10-23 12:56:00,408 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: summary_record
+2023-10-23 12:56:00,415 INFO    SenderThread:803228 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-23 12:56:00,841 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/wandb-summary.json
+2023-10-23 12:56:01,842 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 12:56:02,595 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:56:02,596 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:56:02,596 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:56:02,842 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:56:07,843 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:56:12,843 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:56:17,596 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:56:17,596 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:56:17,638 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-23 12:56:17,638 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:56:17,879 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:56:19,560 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 12:56:23,562 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:56:28,563 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:56:32,596 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:56:32,596 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:56:32,638 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:56:33,837 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:56:38,838 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:56:43,838 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:56:47,596 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:56:47,596 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:56:47,638 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:56:49,563 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 12:56:49,566 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:56:54,566 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:56:59,567 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:57:02,596 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:57:02,597 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:57:02,638 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:57:04,877 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:57:09,878 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:57:13,814 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-23 12:57:13,815 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-23 12:57:13,816 DEBUG   SenderThread:803228 [sender.py:send():380] send: history
+2023-10-23 12:57:13,817 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: summary_record
+2023-10-23 12:57:13,817 INFO    SenderThread:803228 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-23 12:57:13,818 DEBUG   SenderThread:803228 [sender.py:send():380] send: history
+2023-10-23 12:57:13,818 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: summary_record
+2023-10-23 12:57:13,826 INFO    SenderThread:803228 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-23 12:57:13,875 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/wandb-summary.json
+2023-10-23 12:57:15,827 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:57:15,876 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 12:57:17,596 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:57:17,597 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:57:17,597 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:57:19,565 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 12:57:21,567 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:57:26,568 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:57:31,569 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:57:32,596 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:57:32,597 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:57:32,638 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:57:36,881 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:57:41,882 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:57:46,883 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:57:47,596 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:57:47,597 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:57:47,638 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:57:49,568 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 12:57:52,570 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:57:57,571 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:58:02,572 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:58:02,596 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:58:02,597 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:58:02,638 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:58:07,886 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:58:12,886 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:58:17,597 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:58:17,597 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:58:17,638 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:58:18,832 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:58:19,585 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 12:58:24,587 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:58:27,446 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-23 12:58:27,446 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-23 12:58:27,448 DEBUG   SenderThread:803228 [sender.py:send():380] send: history
+2023-10-23 12:58:27,448 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: summary_record
+2023-10-23 12:58:27,449 INFO    SenderThread:803228 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-23 12:58:27,449 DEBUG   SenderThread:803228 [sender.py:send():380] send: history
+2023-10-23 12:58:27,450 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: summary_record
+2023-10-23 12:58:27,457 INFO    SenderThread:803228 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-23 12:58:27,908 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/wandb-summary.json
+2023-10-23 12:58:29,909 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 12:58:30,459 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:58:32,597 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:58:32,597 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:58:32,601 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:58:35,879 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:58:40,880 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:58:44,260 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 12:58:44,260 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 12:58:44,260 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 12:58:44,260 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 12:58:44,261 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 12:58:44,261 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 12:58:44,265 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 12:58:44,346 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-23 12:58:44,346 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 12:58:44,347 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 12:58:44,347 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 12:58:45,525 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 12:58:45,525 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 12:58:45,525 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 12:58:45,526 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 12:58:45,526 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 12:58:45,527 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 12:58:45,528 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 12:58:45,528 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started gpu monitoring
+2023-10-23 12:58:45,528 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 12:58:45,530 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 12:58:45,530 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 12:58:45,533 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started network monitoring
+2023-10-23 12:58:45,533 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 12:58:45,534 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 12:58:45,534 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 12:58:45,535 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 12:58:45,538 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 12:58:45,620 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-23 12:58:45,621 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 12:58:45,621 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 12:58:45,622 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 12:58:45,916 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 12:58:46,624 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:58:46,696 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 12:58:46,696 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 12:58:46,696 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 12:58:46,697 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 12:58:46,698 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 12:58:46,698 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 12:58:46,698 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 12:58:46,698 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 12:58:46,699 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 12:58:46,699 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 12:58:46,699 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 12:58:46,699 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 12:58:46,702 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 12:58:46,703 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 12:58:46,703 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 12:58:47,597 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:58:47,598 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:58:47,602 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:58:47,772 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 12:58:47,772 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 12:58:47,773 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 12:58:47,773 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 12:58:47,774 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 12:58:47,774 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 12:58:47,775 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started gpu monitoring
+2023-10-23 12:58:47,777 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 12:58:47,780 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started network monitoring
+2023-10-23 12:58:47,814 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 12:58:47,814 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 12:58:47,814 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 12:58:47,815 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 12:58:47,815 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 12:58:47,816 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 12:58:47,816 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 12:58:47,816 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 12:58:47,912 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-23 12:58:47,912 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 12:58:47,913 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 12:58:47,914 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 12:58:49,749 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 12:58:49,749 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 12:58:49,749 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 12:58:49,750 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 12:58:49,750 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 12:58:49,751 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 12:58:49,751 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started gpu monitoring
+2023-10-23 12:58:49,752 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 12:58:49,755 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started network monitoring
+2023-10-23 12:58:49,884 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 12:58:49,884 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 12:58:49,884 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 12:58:49,885 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 12:58:49,886 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 12:58:49,886 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 12:58:49,886 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 12:58:49,887 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 12:58:49,975 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-23 12:58:49,976 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 12:58:49,976 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 12:58:49,977 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 12:58:51,919 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 12:58:51,978 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:58:56,979 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:59:01,981 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:59:02,597 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:59:02,599 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:59:02,599 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:59:07,904 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:59:12,905 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:59:17,598 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:59:17,598 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:59:17,638 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:59:18,896 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:59:23,897 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:59:28,898 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:59:32,598 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:59:32,598 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:59:32,638 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:59:34,633 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 12:59:34,633 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 12:59:34,633 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 12:59:34,633 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 12:59:34,634 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 12:59:34,635 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 12:59:34,636 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started gpu monitoring
+2023-10-23 12:59:34,637 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 12:59:34,638 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started network monitoring
+2023-10-23 12:59:34,674 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 12:59:34,675 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 12:59:34,676 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 12:59:34,676 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 12:59:34,677 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 12:59:34,677 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 12:59:34,678 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 12:59:34,678 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 12:59:34,766 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-23 12:59:34,767 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 12:59:34,767 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 12:59:34,767 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:59:34,768 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 12:59:35,941 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 12:59:39,770 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:59:44,771 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:59:47,598 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 12:59:47,599 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 12:59:47,603 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 12:59:49,825 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:59:54,826 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 12:59:58,028 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 12:59:58,029 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 12:59:58,029 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 12:59:58,029 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 12:59:58,030 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 12:59:58,030 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 12:59:58,032 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started gpu monitoring
+2023-10-23 12:59:58,034 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 12:59:58,037 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started network monitoring
+2023-10-23 12:59:58,070 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 12:59:58,070 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 12:59:58,070 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 12:59:58,071 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 12:59:58,072 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 12:59:58,072 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 12:59:58,074 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 12:59:58,075 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 12:59:58,162 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-23 12:59:58,162 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 12:59:58,162 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 12:59:58,163 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:00:00,165 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:00:02,598 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:00:02,599 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: keepalive
+2023-10-23 13:00:02,599 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:00:02,603 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:00:05,870 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:00:10,871 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:00:15,872 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:00:17,598 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:00:17,599 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:00:17,642 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:00:21,851 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:00:26,853 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:00:31,854 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:00:32,598 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:00:32,599 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:00:32,642 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:00:36,881 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:00:41,637 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 13:00:41,637 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 13:00:41,637 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 13:00:41,637 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 13:00:41,638 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 13:00:41,639 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 13:00:41,639 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started gpu monitoring
+2023-10-23 13:00:41,646 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 13:00:41,650 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started network monitoring
+2023-10-23 13:00:42,698 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:00:43,275 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 13:00:43,276 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 13:00:43,276 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 13:00:43,276 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 13:00:43,277 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 13:00:43,277 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 13:00:43,280 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 13:00:43,280 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 13:00:43,360 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-23 13:00:43,361 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 13:00:43,361 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 13:00:43,362 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:00:43,975 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:00:47,599 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:00:47,599 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:00:47,603 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:00:47,873 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:00:52,875 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:00:57,876 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:01:00,733 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 13:01:00,734 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 13:01:00,734 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 13:01:00,734 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 13:01:00,735 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 13:01:00,735 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 13:01:00,736 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started gpu monitoring
+2023-10-23 13:01:00,739 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 13:01:00,741 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started network monitoring
+2023-10-23 13:01:01,984 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:01:02,329 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 13:01:02,330 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 13:01:02,330 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 13:01:02,330 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 13:01:02,331 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 13:01:02,331 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 13:01:02,332 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 13:01:02,332 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 13:01:02,412 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-23 13:01:02,413 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 13:01:02,413 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 13:01:02,414 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:01:02,599 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:01:02,599 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:01:02,603 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:01:02,918 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:01:03,985 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:01:07,919 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:01:12,920 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:01:17,599 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:01:17,600 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:01:17,642 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:01:18,832 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:01:23,833 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:01:28,834 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:01:32,599 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:01:32,600 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:01:32,642 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:01:33,864 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:01:38,866 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:01:43,867 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:01:47,599 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:01:47,600 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:01:47,642 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:01:48,878 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:01:53,879 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:01:55,967 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 13:01:55,968 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 13:01:55,968 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 13:01:55,968 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 13:01:55,969 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 13:01:55,969 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 13:01:55,970 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started gpu monitoring
+2023-10-23 13:01:55,972 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 13:01:55,975 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started network monitoring
+2023-10-23 13:01:57,563 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 13:01:57,563 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 13:01:57,563 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 13:01:57,563 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 13:01:57,564 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 13:01:57,564 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 13:01:57,564 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 13:01:57,565 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 13:01:57,647 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-23 13:01:57,648 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 13:01:57,648 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 13:01:57,649 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:01:58,012 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:01:59,650 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:02:02,600 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:02:02,600 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:02:02,604 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:02:04,905 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:02:09,906 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:02:14,907 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:02:17,600 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:02:17,600 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:02:17,642 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:02:20,850 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:02:25,851 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:02:30,852 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:02:32,600 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:02:32,601 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:02:32,642 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:02:36,827 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:02:41,828 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:02:46,829 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:02:47,600 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:02:47,601 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:02:47,642 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:02:51,891 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:02:56,892 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:03:01,894 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:03:02,600 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:03:02,601 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:03:02,642 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:03:07,889 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:03:12,890 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:03:17,601 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:03:17,601 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:03:17,642 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:03:18,870 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:03:23,871 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:03:24,248 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 13:03:24,248 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 13:03:24,249 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 13:03:24,249 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 13:03:24,250 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 13:03:24,250 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 13:03:24,252 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started gpu monitoring
+2023-10-23 13:03:24,255 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 13:03:24,256 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started network monitoring
+2023-10-23 13:03:26,056 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:03:27,057 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:03:28,881 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:03:31,058 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:03:32,601 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:03:32,601 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:03:32,604 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:03:33,060 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:03:34,479 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:03:35,061 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:03:37,062 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:03:39,984 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:03:41,064 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:03:45,065 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:03:45,097 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:03:47,066 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:03:47,601 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:03:47,601 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:03:47,605 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:03:49,067 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:03:50,715 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:03:51,068 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:03:53,069 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:03:55,779 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:03:57,071 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:03:59,072 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:04:01,073 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:04:01,349 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:04:02,601 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:04:02,602 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:04:02,605 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:04:03,074 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:04:06,955 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:04:07,076 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:04:09,077 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:04:12,025 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:04:13,079 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:04:15,080 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:04:17,081 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:04:17,601 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:04:17,602 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:04:17,605 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:04:17,863 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:04:19,082 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:04:22,916 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:04:23,084 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:04:24,256 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 13:04:24,259 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:04:25,085 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:04:27,086 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:04:28,503 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:04:29,087 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:04:31,088 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:04:32,601 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:04:32,602 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:04:32,606 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:04:33,626 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:04:35,090 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:04:39,040 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:04:39,092 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:04:40,093 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:04:41,093 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:04:41,373 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 13:04:41,374 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 13:04:41,374 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 13:04:41,375 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 13:04:41,375 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 13:04:41,376 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 13:04:41,376 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 13:04:41,459 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-23 13:04:41,460 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 13:04:41,460 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 13:04:41,460 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 13:04:41,460 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 13:04:41,460 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 13:04:41,461 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 13:04:41,461 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 13:04:41,462 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 13:04:41,462 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 13:04:41,462 WARNING HandlerThread:803228 [interfaces.py:finish():207] Failed to finish cpu monitoring: cannot join thread before it is started
+2023-10-23 13:04:41,462 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:04:41,463 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 13:04:41,464 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 13:04:41,464 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 13:04:41,464 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 13:04:41,465 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:04:42,094 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:04:42,537 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 13:04:42,537 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 13:04:42,537 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 13:04:42,538 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 13:04:42,539 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 13:04:42,539 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 13:04:42,540 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started gpu monitoring
+2023-10-23 13:04:42,541 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 13:04:42,544 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started network monitoring
+2023-10-23 13:04:42,563 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 13:04:42,563 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 13:04:42,563 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 13:04:42,564 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 13:04:42,564 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 13:04:42,565 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 13:04:42,565 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 13:04:42,565 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 13:04:42,657 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-23 13:04:42,657 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 13:04:42,657 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 13:04:42,658 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:04:42,958 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 13:04:42,959 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 13:04:42,959 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 13:04:42,959 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 13:04:42,960 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 13:04:42,960 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 13:04:42,961 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started gpu monitoring
+2023-10-23 13:04:42,962 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 13:04:42,965 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started network monitoring
+2023-10-23 13:04:43,094 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:04:44,660 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:04:47,607 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:04:47,607 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:04:47,608 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:04:49,845 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:04:54,846 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:04:59,847 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:05:02,603 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:05:02,604 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:05:02,646 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:05:04,907 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:05:09,908 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:05:14,909 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:05:17,604 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:05:17,604 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:05:17,646 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:05:20,858 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:05:25,859 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:05:30,860 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:05:32,604 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:05:32,604 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:05:32,646 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:05:35,900 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:05:40,901 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:05:42,966 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 13:05:42,969 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:05:45,971 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:05:47,604 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:05:47,605 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:05:47,646 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:05:51,846 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:05:56,847 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:06:01,848 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:06:02,604 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:06:02,605 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:06:02,646 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:06:07,843 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:06:12,844 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:06:12,971 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:06:17,604 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:06:17,605 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:06:17,646 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:06:17,873 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:06:22,874 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:06:27,875 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:06:32,605 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:06:32,605 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:06:32,646 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:06:32,876 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:06:37,877 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:06:42,878 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:06:42,974 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:06:47,605 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:06:47,606 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:06:47,646 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:06:48,850 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:06:53,851 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:06:58,852 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:07:02,605 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:07:02,606 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:07:02,646 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:07:03,858 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:07:08,859 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:07:12,976 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:07:13,978 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:07:17,605 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:07:17,606 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:07:17,646 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:07:19,912 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:07:24,913 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:07:29,914 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:07:32,606 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:07:32,606 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:07:32,650 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:07:35,884 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:07:40,885 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:07:42,981 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:07:45,983 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:07:47,606 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:07:47,606 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:07:47,646 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:07:51,856 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:07:56,857 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:08:01,858 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:08:02,606 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:08:02,607 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:08:02,650 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:08:06,909 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:08:10,782 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 13:08:10,782 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 13:08:10,782 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 13:08:10,782 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 13:08:10,783 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 13:08:10,784 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 13:08:10,784 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 13:08:10,870 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-23 13:08:10,871 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 13:08:10,871 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 13:08:10,871 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 13:08:10,872 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 13:08:10,872 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 13:08:10,872 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 13:08:10,873 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 13:08:10,873 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:08:10,873 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 13:08:10,875 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 13:08:10,873 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 13:08:10,875 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 13:08:10,875 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 13:08:10,875 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 13:08:10,878 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 13:08:10,879 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:08:12,880 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:08:17,606 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:08:17,607 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:08:17,611 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:08:17,904 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:08:22,905 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:08:27,906 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:08:32,606 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:08:32,607 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:08:32,650 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:08:33,811 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:08:38,813 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:08:43,814 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:08:47,607 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:08:47,608 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:08:47,650 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:08:48,861 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:08:53,862 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:08:58,863 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:09:02,607 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:09:02,607 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:09:02,650 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:09:03,897 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:09:08,898 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:09:13,899 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:09:17,607 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:09:17,607 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:09:17,654 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:09:19,886 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:09:24,887 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:09:29,888 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:09:32,607 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:09:32,608 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:09:32,650 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:09:33,633 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 13:09:33,633 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 13:09:33,633 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 13:09:33,633 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 13:09:33,634 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 13:09:33,635 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 13:09:33,636 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started gpu monitoring
+2023-10-23 13:09:33,639 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 13:09:33,640 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started network monitoring
+2023-10-23 13:09:33,674 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 13:09:33,674 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 13:09:33,674 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 13:09:33,675 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 13:09:33,675 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 13:09:33,676 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 13:09:33,676 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 13:09:33,676 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 13:09:33,765 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-23 13:09:33,765 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 13:09:33,766 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 13:09:33,766 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:09:35,290 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 13:09:35,290 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 13:09:35,290 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 13:09:35,291 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 13:09:35,291 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 13:09:35,292 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 13:09:35,293 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 13:09:35,293 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 13:09:35,295 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started gpu monitoring
+2023-10-23 13:09:35,296 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 13:09:35,297 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 13:09:35,297 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 13:09:35,297 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 13:09:35,298 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 13:09:35,298 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 13:09:35,302 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 13:09:35,386 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-23 13:09:35,387 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 13:09:35,394 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:09:35,395 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:09:37,581 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 13:09:37,582 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 13:09:37,582 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 13:09:37,582 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 13:09:37,583 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 13:09:37,583 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 13:09:37,584 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started gpu monitoring
+2023-10-23 13:09:37,587 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 13:09:37,588 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started network monitoring
+2023-10-23 13:09:37,592 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 13:09:37,592 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 13:09:37,592 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 13:09:37,592 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 13:09:37,593 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 13:09:37,593 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 13:09:37,596 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 13:09:37,596 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 13:09:37,682 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-23 13:09:37,683 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 13:09:37,683 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 13:09:37,684 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:09:40,686 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:09:41,366 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 13:09:41,366 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 13:09:41,366 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 13:09:41,366 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 13:09:41,367 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 13:09:41,368 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 13:09:41,369 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started gpu monitoring
+2023-10-23 13:09:41,372 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 13:09:41,373 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started network monitoring
+2023-10-23 13:09:41,507 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 13:09:41,507 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 13:09:41,508 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 13:09:41,508 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 13:09:41,509 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 13:09:41,509 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 13:09:41,509 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 13:09:41,509 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 13:09:41,581 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-23 13:09:41,582 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 13:09:41,582 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 13:09:41,583 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:09:42,796 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 13:09:42,797 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 13:09:42,797 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 13:09:42,797 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 13:09:42,798 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 13:09:42,798 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 13:09:42,799 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started gpu monitoring
+2023-10-23 13:09:42,801 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 13:09:42,803 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 13:09:42,803 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 13:09:42,803 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 13:09:42,803 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 13:09:42,804 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 13:09:42,804 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 13:09:42,808 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 13:09:42,811 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 13:09:42,897 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-23 13:09:42,897 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 13:09:42,898 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:09:43,268 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:09:44,587 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 13:09:44,587 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 13:09:44,587 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 13:09:44,587 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 13:09:44,588 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 13:09:44,588 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 13:09:44,588 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 13:09:44,589 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 13:09:44,590 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 13:09:44,590 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 13:09:44,590 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 13:09:44,590 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 13:09:44,594 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 13:09:44,595 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 13:09:44,596 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:09:45,269 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:09:46,597 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:09:46,810 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: resume
+2023-10-23 13:09:46,811 INFO    HandlerThread:803228 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-10-23 13:09:46,811 INFO    HandlerThread:803228 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 13:09:46,811 INFO    SystemMonitor:803228 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 13:09:46,812 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 13:09:46,812 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 13:09:46,814 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started gpu monitoring
+2023-10-23 13:09:46,818 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 13:09:46,819 INFO    SystemMonitor:803228 [interfaces.py:start():190] Started network monitoring
+2023-10-23 13:09:47,607 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:09:47,608 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:09:47,610 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:09:49,271 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:09:52,462 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:09:53,273 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:09:55,274 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:09:57,275 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:09:58,038 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:10:01,278 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:02,607 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:10:02,608 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:10:02,610 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:10:03,279 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:03,922 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:10:07,280 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:09,061 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:10:09,281 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:11,282 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:13,284 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:14,663 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:10:15,285 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:17,607 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:10:17,608 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:10:17,610 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:10:19,286 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:19,845 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:10:21,287 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:23,288 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:25,455 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:10:27,290 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:29,291 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:30,596 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:10:32,608 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:10:32,608 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:10:32,611 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:10:33,293 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:35,294 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:36,202 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:10:37,295 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:39,296 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:41,297 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:41,796 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:10:45,299 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:46,820 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 13:10:46,823 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:10:46,824 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:10:47,300 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:47,608 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:10:47,609 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:10:47,611 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:10:49,301 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:52,518 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:10:53,303 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:55,304 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:10:57,671 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:10:59,306 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:11:01,307 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:11:02,608 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:11:02,609 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:11:02,612 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:11:02,859 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:11:03,308 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:11:05,309 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:11:07,934 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:11:09,311 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:11:11,312 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:11:13,313 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:11:13,512 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:11:15,314 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:11:16,825 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:11:17,315 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:11:17,609 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:11:17,609 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:11:17,611 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:11:18,909 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:11:21,317 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:11:23,318 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:11:24,203 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:11:27,320 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:11:29,321 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:11:30,066 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:11:31,322 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:11:32,609 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:11:32,609 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:11:32,613 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:11:35,206 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:11:35,324 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:11:37,325 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:11:39,326 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:11:40,790 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:11:41,006 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: pause
+2023-10-23 13:11:41,006 INFO    HandlerThread:803228 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-10-23 13:11:41,006 INFO    HandlerThread:803228 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-23 13:11:41,007 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-23 13:11:41,007 DEBUG   SystemMonitor:803228 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-23 13:11:41,011 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 13:11:41,011 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 13:11:41,094 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined gpu monitor
+2023-10-23 13:11:41,094 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 13:11:41,094 INFO    HandlerThread:803228 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 13:11:41,109 DEBUG   SenderThread:803228 [sender.py:send():380] send: stats
+2023-10-23 13:11:41,327 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:11:43,328 INFO    Thread-12 :803228 [dir_watcher.py:_on_file_modified():288] file/dir modified: /workspace/QuantGAN/wandb/run-20231023_125203-ooy66q75/files/output.log
+2023-10-23 13:11:46,112 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 13:11:47,609 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 13:11:47,610 DEBUG   SenderThread:803228 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 13:11:47,614 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 13:11:51,823 DEBUG   HandlerThread:803228 [handler.py:handle_request():146] handle_request: status_report

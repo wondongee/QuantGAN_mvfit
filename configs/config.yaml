@@ -1,0 +1,20 @@
+data:
+    file_name: 'SP500_daily.csv'
+    file_path: './QuantGAN/data/'
+    generator_path : './QuantGAN/result/'
+
+model:
+    receptive_field_size : 127
+    z_dim : 3
+    seq_len : 127
+    clip : 0.01
+    loss_func: 'WGAN-GP' # "WGAN", "WGAN-GP", "SN-GAN", "VANILLA"
+
+train:
+    num_epochs : 1000
+    batch_size : 256
+    gen_learning_rate : 0.0002
+    disc_learning_rate : 0.0002
+    device : "cuda:0"
+    seed: 42
+    n_critic: 10
