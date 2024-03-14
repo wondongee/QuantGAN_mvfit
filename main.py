@@ -6,30 +6,20 @@ import torch
 import torch.optim as optim
 from tqdm import tqdm
 from data_loader import *
-from model.torch_tcn import *
+from model import *
 from utils import *
-from preprocess.preprocessor import processor
+from train import *
+from preprocess.preprocessor import *
 import yaml
-from model.loss import * 
-from model.train import train
 import logging
 os.environ["CUDA_VISIBLE_DEVICES"] = "0, 1"
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-def load_config(config_file):
-    with open(config_file, 'r') as file:
-        config = yaml.safe_load(file)
-    return config
-
-def init_model(config, device):
-    if config['model']['loss_func'] == 'SN-GAN':
-        discriminator = SN_Discriminator(config['model']['seq_len']).to(device)
-        generator = Generator2().to(device)
-    else:
-        discriminator = Discriminator(config['model']['seq_len']).to(device)
-        generator = Generator().to(device)
+def init_model(config, device):    
+    discriminator = Discriminator(config['model']['seq_len']).to(device)
+    generator = Generator().to(device)
     return generator, discriminator
 
 def init_data_loader(data, config):
@@ -38,40 +28,43 @@ def init_data_loader(data, config):
     return dataloader
 
 def init_optimizer(generator, discriminator, config):
-    # TODO : add scheduler / AdamW
-    "betas: decay of first order momentum of gradient"
-    gen_optimizer = optim.Adam(generator.parameters(), config['train']['gen_learning_rate'], betas=(0.5, 0.999))
-    disc_optimizer = optim.Adam(discriminator.parameters(), lr=config['train']['disc_learning_rate'], betas=(0.5, 0.999))
+    gen_optimizer = optim.Adam(generator.parameters(), config['train']['gen_learning_rate'], betas=(0.5, 0.99))
+    disc_optimizer = optim.Adam(discriminator.parameters(), lr=config['train']['disc_learning_rate'], betas=(0.5, 0.99))
     return gen_optimizer, disc_optimizer
 
 ## ## ## 
 
 def main(config_file):
+        
     # Get Hyperparameters
-    config = load_config(config_file)
-    file_name = config['data']['file_name']
-    
-    manual_seed_all(config['train']['seed'])
+    with open(config_file, 'r') as file:
+        config = yaml.safe_load(file)         
     device = torch.device(config['train']['device']) if torch.cuda.is_available() else torch.device("cpu")
-
-    # Load data
+    
+    # Initialize wandb
+    wandb_config = {**config['train'], **config['model']}
+    wandb.init(project='Quant-GAN', config=wandb_config)
+    
+    file_name = config['data']['file_name']
     file_path = os.path.join(config['data']['file_path'], config['data']['file_name'])
+    generator_path = config['data']['generator_path']
+    
+    # Make the directory for saving the results
+    full_name = os.path.join(generator_path, f'{file_name.split(".")[0]}_{wandb.run.name}')
+    if not os.path.isdir(full_name):
+        os.mkdir(full_name)    
+
+    # Load data        
     try:
         data = pd.read_csv(file_path, parse_dates={'datetime': ['Date']}, date_format='%Y-%m-%d')
     except FileNotFoundError:
         logger.error(f"File {file_path} not found.")
-        sys.exit()
-        
-    generator_path = config['data']['generator_path']
+        sys.exit()            
     
     # Process data
     log_returns_preprocessed = processor(data, config['data']['file_path'], config['data']['file_name'])
     logger.info("Data shape: %s", log_returns_preprocessed.shape)
 
-    # Initialize wandb
-    wandb_config = {**config['train'], **config['model']}
-    wandb.init(project='Quant-GAN', config=wandb_config)
-    
     # init model loader, optimizer
     generator, discriminator = init_model(config, device)
     generator.train()
@@ -86,26 +79,26 @@ def main(config_file):
     
     for epoch in range(config['train']['num_epochs']):
         for idx, data in enumerate(dataloader):
+        
             disc_loss, gen_loss, discriminator, generator, disc_optimizer, gen_optimizer = train(
                 idx, data, discriminator, generator, disc_optimizer, gen_optimizer, 
                 config, device
-            )
+            )         
             if gen_loss is not None:
                 last_gen_loss = gen_loss
             elif last_gen_loss is not None:
                 gen_loss = last_gen_loss
             
             progress_bar.update(1)
-            #progress_bar.set_description(f"Discriminator Loss: {disc_loss.item():.8f} Generator Loss: {gen_loss.item():.8f}")
-            
+                                     
         logger.info('Epoch [%d/%d], Discriminator Loss: %.8f, Generator Loss: %.8f',
                     epoch+1, config['train']['num_epochs'], disc_loss.item(), gen_loss.item())
         wandb.log({"Discriminator_loss": disc_loss, "Generator_loss": gen_loss})
-                
-    ### Save the model ###
-    # torch.save(generator, f'{generator_path}trained_generator_{file_name.split(".")[0]}_{wandb.run.name}_epoch_{epoch}.pth')
-    model_file_name = f'trained_generator_{file_name.split(".")[0]}_{wandb.run.name}_epoch_{epoch}.pth'
-    torch.save(generator, os.path.join(generator_path, model_file_name))
+        
+        ### Save the model ###
+        if epoch % 5 == 0:   
+            model_file_name = f'./epoch_{epoch}.pth'
+            torch.save(generator, os.path.join(full_name, model_file_name))                    
     
 if __name__ == "__main__":
     main('./QuantGAN/configs/config.yaml')

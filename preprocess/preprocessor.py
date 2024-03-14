@@ -20,10 +20,10 @@ def processor(data, file_path ,file_name):
     
     file_name = file_name.split('.')[0]
     
-    joblib.dump(standardScaler1, os.path.join(file_path, f'{file_name}_standardScaler1.pkl'))
-    joblib.dump(standardScaler2, os.path.join(file_path, f'{file_name}_standardScaler2.pkl'))
-    joblib.dump(gaussianize, os.path.join(file_path, f'{file_name}_gaussianize.pkl'))
-    joblib.dump(log_returns, os.path.join(file_path, f'{file_name}_log_returns.pkl'))
-    joblib.dump(log_returns_preprocessed, os.path.join(file_path, f'{file_name}_log_returns_preprocessed.pkl'))
+    joblib.dump(standardScaler1, os.path.join(file_path, f'pickle/{file_name}_standardScaler1.pkl'))
+    joblib.dump(standardScaler2, os.path.join(file_path, f'pickle/{file_name}_standardScaler2.pkl'))
+    joblib.dump(gaussianize, os.path.join(file_path, f'pickle/{file_name}_gaussianize.pkl'))
+    joblib.dump(log_returns, os.path.join(file_path, f'pickle/{file_name}_log_returns.pkl'))
+    joblib.dump(log_returns_preprocessed, os.path.join(file_path, f'pickle/{file_name}_log_returns_preprocessed.pkl'))
     
     return log_returns_preprocessed

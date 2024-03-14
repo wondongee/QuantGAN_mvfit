@@ -8,9 +8,8 @@ from tqdm import tqdm
 from data_loader import *
 from preprocess.acf import *
 from preprocess.gaussianize import *
-from model.torch_tcn import *
+from QuantGAN.model import *
 from utils import *
-from model.loss import * 
 
 import joblib
 import yaml
