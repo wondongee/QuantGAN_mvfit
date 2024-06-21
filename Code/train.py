@@ -7,7 +7,7 @@ import torch.optim as optim
 from tqdm import tqdm
 from data_loader import *
 from preprocess.gaussianize import *
-from model import *
+from QuantGAN_stock.Code.model import *
 from utils import *
 
 path = '/workspace/QuantGAN_stock'
@@ -67,8 +67,8 @@ dataset = dataloader(log_returns_preprocessed, seq_len)
 dataloader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=True)
 
 #### Model initialization ###
-generator = LSTMGenerator(latent_dim=5, ts_dim=5).to(device)
-discriminator = LSTMDiscriminator(ts_dim=5, seq_len=seq_len).to(device)
+generator = Generator().to(device)
+discriminator = Discriminator(seq_len).to(device)
 criterion = nn.BCELoss()
 
 gen_optimizer = optim.Adam(generator.parameters(), lr=lr)
