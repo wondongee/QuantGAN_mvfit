@@ -71,7 +71,7 @@ class Gaussianize(sklearn.base.TransformerMixin):
 
     def __init__(self, strategy: Text = 'lambert', 
                  tol: float = 1e-5, 
-                 max_iter: int = 500, 
+                 max_iter: int = 1000, 
                  verbose: bool = False):
         self.tol = tol
         self.max_iter = max_iter

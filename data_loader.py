@@ -1,10 +1,9 @@
 import torch
 from torch.utils.data import Dataset, DataLoader
-from preprocess.acf import *
 from preprocess.gaussianize import *
 import pandas as pd
 
-class Loader32(Dataset):
+class dataloader(Dataset):
     def __init__(self, data, length):
         assert len(data) >= length
         self.data = data

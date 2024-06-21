@@ -1,0 +1,1411 @@
+/workspace/QuantGAN_stock/preprocess/gaussianize.py:179: UserWarning: Warning: No convergence after 1000 iterations. Increase max_iter.
+  warnings.warn("Warning: No convergence after %d iterations. Increase max_iter." % max_iter)
+  0%|                                                                                                                                                                                  | 0/400 [00:00<?, ?it/s]
+Save the Generator_0
+Save the Generator_0
+Save the Generator_0
+Save the Generator_0
+
+
+Discriminator Loss: 0.34156799 Generator Loss: 10.60898590:   0%|▌                                                                                                             | 2/400 [00:08<28:12,  4.25s/it]
+Save the Generator_2
+Save the Generator_2
+Save the Generator_2
+Save the Generator_2
+
+
+Discriminator Loss: 0.00000445 Generator Loss: 47.89356995:   1%|█                                                                                                             | 4/400 [00:15<22:56,  3.48s/it]
+Save the Generator_4
+Save the Generator_4
+Save the Generator_4
+Save the Generator_4
+
+
+Discriminator Loss: 0.00000209 Generator Loss: 47.80474472:   2%|█▋                                                                                                            | 6/400 [00:21<21:31,  3.28s/it]
+Save the Generator_6
+Save the Generator_6
+Save the Generator_6
+Save the Generator_6
+
+
+Discriminator Loss: 0.00000352 Generator Loss: 46.14677048:   2%|██▏                                                                                                           | 8/400 [00:27<21:05,  3.23s/it]
+Save the Generator_8
+Save the Generator_8
+Save the Generator_8
+Save the Generator_8
+
+
+Discriminator Loss: 1.70099306 Generator Loss: 1.29284477:   2%|██▊                                                                                                           | 10/400 [00:34<20:47,  3.20s/it]
+Save the Generator_10
+Save the Generator_10
+Save the Generator_10
+Save the Generator_10
+
+
+
+Discriminator Loss: 0.74218774 Generator Loss: 2.88498187:   3%|███▌                                                                                                          | 13/400 [00:43<20:34,  3.19s/it]
+Save the Generator_12
+Save the Generator_12
+Save the Generator_12
+Save the Generator_12
+
+Discriminator Loss: 0.60245633 Generator Loss: 1.89822662:   4%|███▊                                                                                                          | 14/400 [00:46<20:29,  3.19s/it]
+Save the Generator_14
+Save the Generator_14
+Save the Generator_14
+Save the Generator_14
+
+
+Discriminator Loss: 1.08411276 Generator Loss: 0.84637994:   4%|████▍                                                                                                         | 16/400 [00:53<20:16,  3.17s/it]
+Save the Generator_16
+Save the Generator_16
+Save the Generator_16
+Save the Generator_16
+
+
+Discriminator Loss: 0.91122580 Generator Loss: 1.97656941:   4%|████▉                                                                                                         | 18/400 [00:59<20:16,  3.19s/it]
+Save the Generator_18
+Save the Generator_18
+Save the Generator_18
+Save the Generator_18
+
+
+Discriminator Loss: 0.79023230 Generator Loss: 1.45745981:   5%|█████▌                                                                                                        | 20/400 [01:06<20:21,  3.21s/it]
+Save the Generator_20
+Save the Generator_20
+Save the Generator_20
+Save the Generator_20
+
+
+
+Discriminator Loss: 1.61876225 Generator Loss: 0.55840379:   6%|██████▎                                                                                                       | 23/400 [01:15<20:07,  3.20s/it]
+Save the Generator_22
+Save the Generator_22
+Save the Generator_22
+Save the Generator_22
+
+Discriminator Loss: 0.63820910 Generator Loss: 1.66558993:   6%|██████▌                                                                                                       | 24/400 [01:18<20:06,  3.21s/it]
+Save the Generator_24
+Save the Generator_24
+Save the Generator_24
+Save the Generator_24
+
+
+Discriminator Loss: 1.83227193 Generator Loss: 1.46243501:   6%|███████▏                                                                                                      | 26/400 [01:25<19:54,  3.20s/it]
+Save the Generator_26
+Save the Generator_26
+Save the Generator_26
+Save the Generator_26
+
+
+Discriminator Loss: 2.56835699 Generator Loss: 0.52788073:   7%|███████▋                                                                                                      | 28/400 [01:31<19:53,  3.21s/it]
+Save the Generator_28
+Save the Generator_28
+Save the Generator_28
+Save the Generator_28
+
+
+Discriminator Loss: 0.40425372 Generator Loss: 2.15108752:   8%|████████▎                                                                                                     | 30/400 [01:38<19:54,  3.23s/it]
+Save the Generator_30
+Save the Generator_30
+
+Discriminator Loss: 1.50183392 Generator Loss: 3.79577899:   8%|████████▌                                                                                                     | 31/400 [01:41<19:55,  3.24s/it]
+Save the Generator_30
+
+
+Discriminator Loss: 0.99724257 Generator Loss: 0.75169206:   8%|█████████                                                                                                     | 33/400 [01:47<19:42,  3.22s/it]
+Save the Generator_32
+Save the Generator_32
+Save the Generator_32
+Save the Generator_32
+
+Discriminator Loss: 1.53046417 Generator Loss: 0.47538349:   8%|█████████▎                                                                                                    | 34/400 [01:50<19:25,  3.18s/it]
+Save the Generator_34
+Save the Generator_34
+Save the Generator_34
+Save the Generator_34
+
+
+Discriminator Loss: 0.40079683 Generator Loss: 3.90534139:   9%|█████████▉                                                                                                    | 36/400 [01:57<19:15,  3.17s/it]
+Save the Generator_36
+Save the Generator_36
+Save the Generator_36
+Save the Generator_36
+
+
+
+Discriminator Loss: 0.38719848 Generator Loss: 6.15723753:  10%|██████████▍                                                                                                   | 38/400 [02:03<19:39,  3.26s/it]
+Save the Generator_38
+Save the Generator_38
+Save the Generator_38
+Save the Generator_38
+
+
+Discriminator Loss: 1.94222963 Generator Loss: 6.32820845:  10%|███████████                                                                                                   | 40/400 [02:09<15:16,  2.55s/it]
+Save the Generator_40
+Save the Generator_40
+Save the Generator_40
+Save the Generator_40
+
+
+Discriminator Loss: 1.64793551 Generator Loss: 1.19085968:  10%|███████████▌                                                                                                  | 42/400 [02:12<15:30,  2.60s/it]
+Save the Generator_42
+Save the Generator_42
+Save the Generator_42
+Save the Generator_42
+
+
+Discriminator Loss: 0.98228204 Generator Loss: 10.71152306:  11%|███████████▉                                                                                                 | 44/400 [02:19<17:08,  2.89s/it]
+Save the Generator_44
+Save the Generator_44
+Save the Generator_44
+Save the Generator_44
+
+
+Discriminator Loss: 2.31603980 Generator Loss: 0.81170064:  12%|████████████▋                                                                                                 | 46/400 [02:25<17:58,  3.05s/it]
+Save the Generator_46
+Save the Generator_46
+Save the Generator_46
+Save the Generator_46
+
+
+Discriminator Loss: 1.36376023 Generator Loss: 0.74433917:  12%|█████████████▏                                                                                                | 48/400 [02:31<18:08,  3.09s/it]
+Save the Generator_48
+Save the Generator_48
+Save the Generator_48
+Save the Generator_48
+
+
+Discriminator Loss: 0.44402972 Generator Loss: 5.40014124:  12%|█████████████▊                                                                                                | 50/400 [02:38<18:08,  3.11s/it]
+Save the Generator_50
+Save the Generator_50
+Save the Generator_50
+Save the Generator_50
+
+
+
+Discriminator Loss: 1.43905330 Generator Loss: 2.28229141:  13%|██████████████▌                                                                                               | 53/400 [02:47<17:58,  3.11s/it]
+Save the Generator_52
+Save the Generator_52
+Save the Generator_52
+Save the Generator_52
+
+
+Discriminator Loss: 2.51443338 Generator Loss: 0.88301355:  14%|███████████████▏                                                                                              | 55/400 [02:53<17:49,  3.10s/it]
+Save the Generator_54
+Save the Generator_54
+Save the Generator_54
+Save the Generator_54
+
+Discriminator Loss: 1.59630418 Generator Loss: 1.54720318:  14%|███████████████▍                                                                                              | 56/400 [02:56<18:00,  3.14s/it]
+Save the Generator_56
+Save the Generator_56
+Save the Generator_56
+Save the Generator_56
+
+
+Discriminator Loss: 1.08124399 Generator Loss: 0.91745150:  14%|███████████████▉                                                                                              | 58/400 [03:03<18:05,  3.17s/it]
+Save the Generator_58
+Save the Generator_58
+Save the Generator_58
+Save the Generator_58
+
+
+Discriminator Loss: 1.24897695 Generator Loss: 0.60931695:  15%|████████████████▌                                                                                             | 60/400 [03:09<18:00,  3.18s/it]
+Save the Generator_60
+Save the Generator_60
+Save the Generator_60
+Save the Generator_60
+
+
+Discriminator Loss: 1.37503684 Generator Loss: 0.54590255:  16%|█████████████████                                                                                             | 62/400 [03:16<18:10,  3.22s/it]
+Save the Generator_62
+Save the Generator_62
+Save the Generator_62
+Save the Generator_62
+
+
+
+Discriminator Loss: 1.61903214 Generator Loss: 0.86261284:  16%|█████████████████▉                                                                                            | 65/400 [03:25<17:55,  3.21s/it]
+Save the Generator_64
+Save the Generator_64
+Save the Generator_64
+Save the Generator_64
+
+Discriminator Loss: 1.60180306 Generator Loss: 1.29449069:  16%|██████████████████▏                                                                                           | 66/400 [03:29<17:50,  3.21s/it]
+Save the Generator_66
+Save the Generator_66
+Save the Generator_66
+Save the Generator_66
+
+
+Discriminator Loss: 1.28438735 Generator Loss: 0.93916684:  17%|██████████████████▋                                                                                           | 68/400 [03:35<17:41,  3.20s/it]
+Save the Generator_68
+Save the Generator_68
+Save the Generator_68
+Save the Generator_68
+
+
+Discriminator Loss: 1.16285408 Generator Loss: 0.76641107:  18%|███████████████████▎                                                                                          | 70/400 [03:41<17:44,  3.23s/it]
+Save the Generator_70
+Save the Generator_70
+Save the Generator_70
+Save the Generator_70
+
+
+Discriminator Loss: 1.34454548 Generator Loss: 1.39992750:  18%|███████████████████▊                                                                                          | 72/400 [03:48<17:25,  3.19s/it]
+Save the Generator_72
+Save the Generator_72
+Save the Generator_72
+Save the Generator_72
+
+
+
+Discriminator Loss: 1.34881270 Generator Loss: 1.53157890:  19%|████████████████████▋                                                                                         | 75/400 [03:58<17:28,  3.23s/it]
+Save the Generator_74
+Save the Generator_74
+Save the Generator_74
+Save the Generator_74
+
+
+Discriminator Loss: 0.55432159 Generator Loss: 0.95985347:  19%|████████████████████▉                                                                                         | 76/400 [04:04<17:10,  3.18s/it]
+Save the Generator_76
+Save the Generator_76
+Save the Generator_76
+Save the Generator_76
+
+
+Discriminator Loss: 0.02606542 Generator Loss: 11.17656136:  20%|█████████████████████▎                                                                                       | 78/400 [04:07<16:57,  3.16s/it]
+Save the Generator_78
+Save the Generator_78
+Save the Generator_78
+Save the Generator_78
+
+
+Discriminator Loss: 1.92507875 Generator Loss: 0.47796488:  20%|██████████████████████                                                                                        | 80/400 [04:13<16:53,  3.17s/it]
+Save the Generator_80
+Save the Generator_80
+Save the Generator_80
+Save the Generator_80
+
+
+Discriminator Loss: 0.92925155 Generator Loss: 0.94609356:  20%|██████████████████████▌                                                                                       | 82/400 [04:20<17:08,  3.24s/it]
+Save the Generator_82
+Save the Generator_82
+Save the Generator_82
+Save the Generator_82
+
+
+
+Discriminator Loss: 0.40897185 Generator Loss: 12.90716267:  21%|███████████████████████▏                                                                                     | 85/400 [04:29<16:46,  3.20s/it]
+Save the Generator_84
+Save the Generator_84
+Save the Generator_84
+Save the Generator_84
+
+Discriminator Loss: 0.24061650 Generator Loss: 3.83290291:  22%|███████████████████████▋                                                                                      | 86/400 [04:33<17:01,  3.25s/it]
+Save the Generator_86
+Save the Generator_86
+Save the Generator_86
+Save the Generator_86
+
+
+Discriminator Loss: 1.19840443 Generator Loss: 1.20932770:  22%|████████████████████████▏                                                                                     | 88/400 [04:39<16:58,  3.27s/it]
+Save the Generator_88
+Save the Generator_88
+Save the Generator_88
+Save the Generator_88
+
+
+Discriminator Loss: 0.69700110 Generator Loss: 1.70389402:  22%|████████████████████████▊                                                                                     | 90/400 [04:46<16:37,  3.22s/it]
+Save the Generator_90
+Save the Generator_90
+Save the Generator_90
+Save the Generator_90
+
+
+
+Discriminator Loss: 0.40312383 Generator Loss: 3.95785379:  23%|█████████████████████████▌                                                                                    | 93/400 [04:55<16:32,  3.23s/it]
+Save the Generator_92
+Save the Generator_92
+Save the Generator_92
+Save the Generator_92
+
+
+Discriminator Loss: 0.07810227 Generator Loss: 3.44777989:  24%|██████████████████████████▏                                                                                   | 95/400 [05:02<16:17,  3.20s/it]
+Save the Generator_94
+Save the Generator_94
+Save the Generator_94
+Save the Generator_94
+
+Discriminator Loss: 4.70342779 Generator Loss: 2.14701915:  24%|██████████████████████████▍                                                                                   | 96/400 [05:05<16:20,  3.22s/it]
+Save the Generator_96
+Save the Generator_96
+Save the Generator_96
+Save the Generator_96
+
+
+Discriminator Loss: 1.40113521 Generator Loss: 0.59469646:  24%|██████████████████████████▉                                                                                   | 98/400 [05:12<16:14,  3.23s/it]
+Save the Generator_98
+Save the Generator_98
+Save the Generator_98
+Save the Generator_98
+
+
+Discriminator Loss: 1.06489122 Generator Loss: 0.73392594:  25%|███████████████████████████▎                                                                                 | 100/400 [05:18<16:00,  3.20s/it]
+Save the Generator_100
+Save the Generator_100
+Save the Generator_100
+Save the Generator_100
+
+
+
+Discriminator Loss: 0.44053304 Generator Loss: 1.54010546:  26%|████████████████████████████                                                                                 | 103/400 [05:28<15:56,  3.22s/it]
+Save the Generator_102
+Save the Generator_102
+Save the Generator_102
+Save the Generator_102
+
+Discriminator Loss: 1.13863277 Generator Loss: 1.26089120:  26%|████████████████████████████▎                                                                                | 104/400 [05:31<15:57,  3.23s/it]
+Save the Generator_104
+Save the Generator_104
+Save the Generator_104
+Save the Generator_104
+
+
+Discriminator Loss: 0.82125616 Generator Loss: 0.73258972:  26%|████████████████████████████▉                                                                                | 106/400 [05:37<15:56,  3.25s/it]
+Save the Generator_106
+Save the Generator_106
+Save the Generator_106
+Save the Generator_106
+
+
+
+Discriminator Loss: 1.01153755 Generator Loss: 1.23661315:  27%|█████████████████████████████▋                                                                               | 109/400 [05:47<16:03,  3.31s/it]
+Save the Generator_108
+Save the Generator_108
+Save the Generator_108
+Save the Generator_108
+
+
+Discriminator Loss: 1.63384390 Generator Loss: 0.49607450:  28%|██████████████████████████████▏                                                                              | 111/400 [05:54<15:43,  3.26s/it]
+Save the Generator_110
+Save the Generator_110
+Save the Generator_110
+Save the Generator_110
+
+Discriminator Loss: 1.24042845 Generator Loss: 0.75502795:  28%|██████████████████████████████▌                                                                              | 112/400 [05:57<15:36,  3.25s/it]
+Save the Generator_112
+Save the Generator_112
+Save the Generator_112
+Save the Generator_112
+
+
+Discriminator Loss: 1.36457634 Generator Loss: 0.68081188:  28%|███████████████████████████████                                                                              | 114/400 [06:03<14:25,  3.03s/it]
+
+Discriminator Loss: 1.36253595 Generator Loss: 0.60013229:  29%|███████████████████████████████▎                                                                             | 115/400 [06:05<13:39,  2.88s/it]
+Save the Generator_114
+Save the Generator_114
+Save the Generator_114
+
+Discriminator Loss: 0.78701782 Generator Loss: 0.96344930:  29%|███████████████████████████████▌                                                                             | 116/400 [06:08<12:59,  2.74s/it]
+Save the Generator_116
+Save the Generator_116
+Save the Generator_116
+Save the Generator_116
+
+
+Discriminator Loss: 0.63959563 Generator Loss: 1.70463371:  30%|████████████████████████████████▏                                                                            | 118/400 [06:13<12:11,  2.59s/it]
+Save the Generator_118
+Save the Generator_118
+Save the Generator_118
+Save the Generator_118
+
+
+Discriminator Loss: 1.01886761 Generator Loss: 1.66356552:  30%|████████████████████████████████▋                                                                            | 120/400 [06:18<11:47,  2.53s/it]
+Save the Generator_120
+Save the Generator_120
+Save the Generator_120
+Save the Generator_120
+
+
+Discriminator Loss: 1.31459379 Generator Loss: 0.76953495:  30%|█████████████████████████████████▏                                                                           | 122/400 [06:23<11:34,  2.50s/it]
+Save the Generator_122
+Save the Generator_122
+Save the Generator_122
+Save the Generator_122
+
+
+Discriminator Loss: 1.77485466 Generator Loss: 0.55354577:  31%|█████████████████████████████████▊                                                                           | 124/400 [06:28<11:28,  2.49s/it]
+Save the Generator_124
+Save the Generator_124
+Save the Generator_124
+Save the Generator_124
+
+
+Discriminator Loss: 1.31865823 Generator Loss: 0.44590035:  32%|██████████████████████████████████▎                                                                          | 126/400 [06:33<11:26,  2.50s/it]
+Save the Generator_126
+Save the Generator_126
+Save the Generator_126
+Save the Generator_126
+
+
+
+Discriminator Loss: 1.28152919 Generator Loss: 0.59233856:  32%|███████████████████████████████████▏                                                                         | 129/400 [06:40<11:16,  2.50s/it]
+Save the Generator_128
+Save the Generator_128
+Save the Generator_128
+Save the Generator_128
+
+Discriminator Loss: 1.40906668 Generator Loss: 1.01734960:  32%|███████████████████████████████████▍                                                                         | 130/400 [06:43<11:10,  2.48s/it]
+Save the Generator_130
+Save the Generator_130
+Save the Generator_130
+Save the Generator_130
+
+
+Discriminator Loss: 1.41352069 Generator Loss: 0.60764349:  33%|███████████████████████████████████▉                                                                         | 132/400 [06:48<11:33,  2.59s/it]
+Save the Generator_132
+Save the Generator_132
+Save the Generator_132
+Save the Generator_132
+
+
+Discriminator Loss: 1.30156231 Generator Loss: 0.76851481:  34%|████████████████████████████████████▌                                                                        | 134/400 [06:54<12:47,  2.89s/it]
+Save the Generator_134
+Save the Generator_134
+Save the Generator_134
+Save the Generator_134
+
+
+
+Discriminator Loss: 1.09760749 Generator Loss: 0.78732067:  34%|█████████████████████████████████████▎                                                                       | 137/400 [07:04<13:24,  3.06s/it]
+Save the Generator_136
+Save the Generator_136
+Save the Generator_136
+Save the Generator_136
+
+
+Discriminator Loss: 0.04227296 Generator Loss: 3.67601776:  35%|█████████████████████████████████████▉                                                                       | 139/400 [07:10<13:28,  3.10s/it]
+Save the Generator_138
+Save the Generator_138
+Save the Generator_138
+Save the Generator_138
+
+
+Discriminator Loss: 1.69378948 Generator Loss: 0.63371927:  35%|██████████████████████████████████████▍                                                                      | 141/400 [07:16<13:29,  3.12s/it]
+Save the Generator_140
+Save the Generator_140
+Save the Generator_140
+Save the Generator_140
+
+Discriminator Loss: 0.93734545 Generator Loss: 1.61990535:  36%|██████████████████████████████████████▋                                                                      | 142/400 [07:19<13:36,  3.17s/it]
+Save the Generator_142
+Save the Generator_142
+Save the Generator_142
+Save the Generator_142
+
+
+Discriminator Loss: 2.57642317 Generator Loss: 0.61823207:  36%|███████████████████████████████████████▏                                                                     | 144/400 [07:26<13:18,  3.12s/it]
+Save the Generator_144
+Save the Generator_144
+Save the Generator_144
+Save the Generator_144
+
+
+Discriminator Loss: 1.51265502 Generator Loss: 1.22771156:  36%|███████████████████████████████████████▊                                                                     | 146/400 [07:32<13:21,  3.15s/it]
+Save the Generator_146
+Save the Generator_146
+Save the Generator_146
+Save the Generator_146
+
+
+
+Discriminator Loss: 1.07796669 Generator Loss: 1.01107192:  37%|████████████████████████████████████████▌                                                                    | 149/400 [07:42<13:10,  3.15s/it]
+Save the Generator_148
+Save the Generator_148
+Save the Generator_148
+Save the Generator_148
+
+
+Discriminator Loss: 1.35378349 Generator Loss: 1.38748014:  38%|█████████████████████████████████████████▏                                                                   | 151/400 [07:48<13:13,  3.18s/it]
+Save the Generator_150
+Save the Generator_150
+Save the Generator_150
+Save the Generator_150
+
+Discriminator Loss: 0.08874005 Generator Loss: 5.13863707:  38%|█████████████████████████████████████████▍                                                                   | 152/400 [07:51<13:04,  3.16s/it]
+Save the Generator_152
+Save the Generator_152
+Save the Generator_152
+Save the Generator_152
+
+
+Discriminator Loss: 0.11575649 Generator Loss: 3.79042745:  38%|█████████████████████████████████████████▉                                                                   | 154/400 [07:57<12:53,  3.15s/it]
+Save the Generator_154
+Save the Generator_154
+Save the Generator_154
+Save the Generator_154
+
+
+Discriminator Loss: 0.77927947 Generator Loss: 1.02398610:  39%|██████████████████████████████████████████▌                                                                  | 156/400 [08:04<12:57,  3.18s/it]
+Save the Generator_156
+Save the Generator_156
+Save the Generator_156
+Save the Generator_156
+
+
+Discriminator Loss: 0.95460367 Generator Loss: 15.85509014:  40%|██████████████████████████████████████████▋                                                                 | 158/400 [08:10<12:48,  3.17s/it]
+Save the Generator_158
+Save the Generator_158
+Save the Generator_158
+Save the Generator_158
+
+
+
+Discriminator Loss: 1.24776638 Generator Loss: 1.10636294:  40%|███████████████████████████████████████████▊                                                                 | 161/400 [08:20<12:47,  3.21s/it]
+Save the Generator_160
+Save the Generator_160
+Save the Generator_160
+Save the Generator_160
+
+Discriminator Loss: 1.30129755 Generator Loss: 0.56544751:  40%|████████████████████████████████████████████▏                                                                | 162/400 [08:23<12:48,  3.23s/it]
+Save the Generator_162
+Save the Generator_162
+Save the Generator_162
+Save the Generator_162
+
+
+Discriminator Loss: 0.69298035 Generator Loss: 1.02359605:  41%|████████████████████████████████████████████▋                                                                | 164/400 [08:30<12:50,  3.26s/it]
+Save the Generator_164
+Save the Generator_164
+Save the Generator_164
+Save the Generator_164
+
+
+Discriminator Loss: 0.25843635 Generator Loss: 4.21792841:  42%|█████████████████████████████████████████████▏                                                               | 166/400 [08:36<12:43,  3.26s/it]
+Save the Generator_166
+
+Discriminator Loss: 0.45609543 Generator Loss: 3.11518073:  42%|█████████████████████████████████████████████▌                                                               | 167/400 [08:40<12:45,  3.29s/it]
+Save the Generator_166
+Save the Generator_166
+
+
+Discriminator Loss: 0.11057550 Generator Loss: 10.59231663:  42%|█████████████████████████████████████████████▋                                                              | 169/400 [08:46<12:36,  3.28s/it]
+Save the Generator_168
+Save the Generator_168
+Save the Generator_168
+Save the Generator_168
+
+Discriminator Loss: 1.66988778 Generator Loss: 2.15063500:  42%|██████████████████████████████████████████████▎                                                              | 170/400 [08:49<12:36,  3.29s/it]
+Save the Generator_170
+Save the Generator_170
+Save the Generator_170
+Save the Generator_170
+
+
+Discriminator Loss: 1.05964696 Generator Loss: 3.78716707:  43%|██████████████████████████████████████████████▊                                                              | 172/400 [08:56<12:32,  3.30s/it]
+Save the Generator_172
+Save the Generator_172
+Save the Generator_172
+Save the Generator_172
+
+
+
+
+Discriminator Loss: 0.85085595 Generator Loss: 1.72409749:  44%|███████████████████████████████████████████████▋                                                             | 175/400 [09:06<12:15,  3.27s/it]
+Save the Generator_174
+Save the Generator_174
+Save the Generator_174
+Save the Generator_174
+
+
+Discriminator Loss: 0.99504262 Generator Loss: 1.40670526:  44%|████████████████████████████████████████████████▏                                                            | 177/400 [09:12<12:14,  3.29s/it]
+Save the Generator_176
+Save the Generator_176
+Save the Generator_176
+Save the Generator_176
+
+Discriminator Loss: 0.30228993 Generator Loss: 1.51553905:  44%|████████████████████████████████████████████████▌                                                            | 178/400 [09:16<12:10,  3.29s/it]
+Save the Generator_178
+Save the Generator_178
+Save the Generator_178
+Save the Generator_178
+
+
+Discriminator Loss: 2.22753239 Generator Loss: 0.61945933:  45%|█████████████████████████████████████████████████                                                            | 180/400 [09:22<11:59,  3.27s/it]
+Save the Generator_180
+Save the Generator_180
+Save the Generator_180
+Save the Generator_180
+
+
+
+Discriminator Loss: 0.42460874 Generator Loss: 1.21993566:  46%|█████████████████████████████████████████████████▊                                                           | 183/400 [09:32<11:39,  3.22s/it]
+Save the Generator_182
+Save the Generator_182
+Save the Generator_182
+Save the Generator_182
+
+
+Discriminator Loss: 1.31244087 Generator Loss: 1.65679383:  46%|██████████████████████████████████████████████████▍                                                          | 185/400 [09:38<11:26,  3.19s/it]
+Save the Generator_184
+Save the Generator_184
+Save the Generator_184
+Save the Generator_184
+
+
+Discriminator Loss: 0.25062871 Generator Loss: 3.97325635:  47%|██████████████████████████████████████████████████▉                                                          | 187/400 [09:44<11:13,  3.16s/it]
+Save the Generator_186
+Save the Generator_186
+Save the Generator_186
+Save the Generator_186
+
+
+Discriminator Loss: 1.76034403 Generator Loss: 3.27469826:  47%|███████████████████████████████████████████████████▌                                                         | 189/400 [09:51<11:00,  3.13s/it]
+Save the Generator_188
+Save the Generator_188
+Save the Generator_188
+Save the Generator_188
+
+Discriminator Loss: 0.92702544 Generator Loss: 1.72285211:  48%|███████████████████████████████████████████████████▊                                                         | 190/400 [09:54<10:50,  3.10s/it]
+Save the Generator_190
+Save the Generator_190
+Save the Generator_190
+Save the Generator_190
+
+
+Discriminator Loss: 0.22271964 Generator Loss: 4.32500601:  48%|████████████████████████████████████████████████████▎                                                        | 192/400 [10:00<10:55,  3.15s/it]
+Save the Generator_192
+Save the Generator_192
+Save the Generator_192
+Save the Generator_192
+
+
+Discriminator Loss: 0.89251202 Generator Loss: 1.08416557:  48%|████████████████████████████████████████████████████▊                                                        | 194/400 [10:07<11:00,  3.20s/it]
+Save the Generator_194
+Save the Generator_194
+Save the Generator_194
+Save the Generator_194
+
+
+
+Discriminator Loss: 0.44609702 Generator Loss: 1.29965210:  49%|█████████████████████████████████████████████████████▋                                                       | 197/400 [10:16<10:52,  3.21s/it]
+Save the Generator_196
+Save the Generator_196
+Save the Generator_196
+Save the Generator_196
+
+
+Discriminator Loss: 1.44693875 Generator Loss: 0.90239239:  50%|██████████████████████████████████████████████████████▏                                                      | 199/400 [10:22<10:33,  3.15s/it]
+Save the Generator_198
+Save the Generator_198
+Save the Generator_198
+Save the Generator_198
+
+Discriminator Loss: 1.36266541 Generator Loss: 0.62350476:  50%|██████████████████████████████████████████████████████▌                                                      | 200/400 [10:26<10:35,  3.18s/it]
+Save the Generator_200
+Save the Generator_200
+Save the Generator_200
+Save the Generator_200
+
+
+Discriminator Loss: 1.23673117 Generator Loss: 1.00416362:  50%|███████████████████████████████████████████████████████                                                      | 202/400 [10:32<10:31,  3.19s/it]
+Save the Generator_202
+Save the Generator_202
+Save the Generator_202
+Save the Generator_202
+
+
+Discriminator Loss: 1.13916349 Generator Loss: 0.80167383:  51%|███████████████████████████████████████████████████████▌                                                     | 204/400 [10:38<10:24,  3.19s/it]
+Save the Generator_204
+Save the Generator_204
+Save the Generator_204
+Save the Generator_204
+
+
+Discriminator Loss: 1.57581377 Generator Loss: 0.81853020:  52%|████████████████████████████████████████████████████████▏                                                    | 206/400 [10:45<10:18,  3.19s/it]
+Save the Generator_206
+Save the Generator_206
+Save the Generator_206
+Save the Generator_206
+
+
+
+Discriminator Loss: 0.81285143 Generator Loss: 1.43868124:  52%|████████████████████████████████████████████████████████▉                                                    | 209/400 [10:54<10:02,  3.15s/it]
+Save the Generator_208
+Save the Generator_208
+Save the Generator_208
+Save the Generator_208
+
+
+Discriminator Loss: 0.59538084 Generator Loss: 1.65324438:  53%|█████████████████████████████████████████████████████████▍                                                   | 211/400 [11:00<10:00,  3.18s/it]
+Save the Generator_210
+Save the Generator_210
+Save the Generator_210
+Save the Generator_210
+
+
+Discriminator Loss: 0.26177120 Generator Loss: 2.71476150:  53%|██████████████████████████████████████████████████████████                                                   | 213/400 [11:07<09:54,  3.18s/it]
+Save the Generator_212
+Save the Generator_212
+Save the Generator_212
+Save the Generator_212
+
+Discriminator Loss: 0.97127676 Generator Loss: 1.90918314:  54%|██████████████████████████████████████████████████████████▎                                                  | 214/400 [11:10<09:48,  3.16s/it]
+Save the Generator_214
+Save the Generator_214
+Save the Generator_214
+Save the Generator_214
+
+
+Discriminator Loss: 0.54272139 Generator Loss: 1.75104642:  54%|██████████████████████████████████████████████████████████▊                                                  | 216/400 [11:16<09:38,  3.14s/it]
+Save the Generator_216
+Save the Generator_216
+Save the Generator_216
+Save the Generator_216
+
+
+Discriminator Loss: 0.52501488 Generator Loss: 2.45171022:  55%|███████████████████████████████████████████████████████████▍                                                 | 218/400 [11:22<09:27,  3.12s/it]
+Save the Generator_218
+Save the Generator_218
+Save the Generator_218
+Save the Generator_218
+
+
+
+Discriminator Loss: 0.76831102 Generator Loss: 10.62999630:  55%|███████████████████████████████████████████████████████████▋                                                | 221/400 [11:32<09:36,  3.22s/it]
+Save the Generator_220
+Save the Generator_220
+Save the Generator_220
+Save the Generator_220
+
+
+Discriminator Loss: 0.85141218 Generator Loss: 1.22734928:  56%|████████████████████████████████████████████████████████████▊                                                | 223/400 [11:39<09:30,  3.22s/it]
+Save the Generator_222
+Save the Generator_222
+Save the Generator_222
+Save the Generator_222
+
+Discriminator Loss: 1.56167078 Generator Loss: 1.12758851:  56%|█████████████████████████████████████████████████████████████                                                | 224/400 [11:42<09:27,  3.22s/it]
+Save the Generator_224
+Save the Generator_224
+Save the Generator_224
+Save the Generator_224
+
+
+Discriminator Loss: 1.24355531 Generator Loss: 0.66139692:  56%|█████████████████████████████████████████████████████████████▌                                               | 226/400 [11:48<09:18,  3.21s/it]
+Save the Generator_226
+Save the Generator_226
+Save the Generator_226
+Save the Generator_226
+
+
+Discriminator Loss: 3.52922773 Generator Loss: 1.25922191:  57%|██████████████████████████████████████████████████████████████▏                                              | 228/400 [11:55<09:06,  3.17s/it]
+Save the Generator_228
+Save the Generator_228
+Save the Generator_228
+Save the Generator_228
+
+
+
+
+Discriminator Loss: 1.41171587 Generator Loss: 1.78160799:  58%|██████████████████████████████████████████████████████████████▉                                              | 231/400 [12:04<08:57,  3.18s/it]
+Save the Generator_230
+Save the Generator_230
+Save the Generator_230
+Save the Generator_230
+
+Discriminator Loss: 1.32721710 Generator Loss: 0.67045659:  58%|███████████████████████████████████████████████████████████████▏                                             | 232/400 [12:07<08:14,  2.94s/it]
+Save the Generator_232
+Save the Generator_232
+Save the Generator_232
+Save the Generator_232
+
+
+Discriminator Loss: 1.15762520 Generator Loss: 1.62150538:  58%|███████████████████████████████████████████████████████████████▊                                             | 234/400 [12:13<08:19,  3.01s/it]
+Save the Generator_234
+Save the Generator_234
+Save the Generator_234
+Save the Generator_234
+
+
+
+Discriminator Loss: 0.95299888 Generator Loss: 3.79615474:  59%|████████████████████████████████████████████████████████████████▌                                            | 237/400 [12:22<08:23,  3.09s/it]
+Save the Generator_236
+Save the Generator_236
+Save the Generator_236
+Save the Generator_236
+
+
+Discriminator Loss: 0.27829450 Generator Loss: 8.83115673:  60%|█████████████████████████████████████████████████████████████████▏                                           | 239/400 [12:28<08:21,  3.12s/it]
+Save the Generator_238
+Save the Generator_238
+Save the Generator_238
+Save the Generator_238
+
+
+Discriminator Loss: 0.75770378 Generator Loss: 3.18296289:  60%|█████████████████████████████████████████████████████████████████▋                                           | 241/400 [12:35<08:22,  3.16s/it]
+Save the Generator_240
+Save the Generator_240
+Save the Generator_240
+Save the Generator_240
+
+Discriminator Loss: 1.64142084 Generator Loss: 0.45030829:  60%|█████████████████████████████████████████████████████████████████▉                                           | 242/400 [12:38<08:16,  3.15s/it]
+Save the Generator_242
+Save the Generator_242
+Save the Generator_242
+Save the Generator_242
+
+
+Discriminator Loss: 0.87052071 Generator Loss: 1.49802148:  61%|██████████████████████████████████████████████████████████████████▍                                          | 244/400 [12:44<08:12,  3.16s/it]
+Save the Generator_244
+Save the Generator_244
+Save the Generator_244
+Save the Generator_244
+
+
+Discriminator Loss: 0.40323588 Generator Loss: 1.90593326:  62%|███████████████████████████████████████████████████████████████████                                          | 246/400 [12:50<08:04,  3.15s/it]
+Save the Generator_246
+Save the Generator_246
+Save the Generator_246
+Save the Generator_246
+
+
+Discriminator Loss: 1.15520751 Generator Loss: 0.78939265:  62%|███████████████████████████████████████████████████████████████████▌                                         | 248/400 [12:57<07:53,  3.12s/it]
+Save the Generator_248
+Save the Generator_248
+Save the Generator_248
+Save the Generator_248
+
+
+
+Discriminator Loss: 2.15813828 Generator Loss: 0.29329234:  63%|████████████████████████████████████████████████████████████████████▍                                        | 251/400 [13:06<07:47,  3.14s/it]
+Save the Generator_250
+Save the Generator_250
+Save the Generator_250
+Save the Generator_250
+
+
+Discriminator Loss: 1.13079441 Generator Loss: 1.60076034:  63%|████████████████████████████████████████████████████████████████████▉                                        | 253/400 [13:12<07:39,  3.13s/it]
+Save the Generator_252
+Save the Generator_252
+Save the Generator_252
+Save the Generator_252
+
+
+Discriminator Loss: 0.62506044 Generator Loss: 1.46218336:  64%|█████████████████████████████████████████████████████████████████████▍                                       | 255/400 [13:18<07:25,  3.07s/it]
+Save the Generator_254
+Save the Generator_254
+Save the Generator_254
+Save the Generator_254
+
+
+Discriminator Loss: 2.20340204 Generator Loss: 1.18056595:  64%|██████████████████████████████████████████████████████████████████████                                       | 257/400 [13:25<07:28,  3.13s/it]
+Save the Generator_256
+Save the Generator_256
+Save the Generator_256
+Save the Generator_256
+
+
+Discriminator Loss: 7.47239017 Generator Loss: 2.21133280:  65%|██████████████████████████████████████████████████████████████████████▌                                      | 259/400 [13:31<07:23,  3.15s/it]
+Save the Generator_258
+Save the Generator_258
+Save the Generator_258
+Save the Generator_258
+
+
+Discriminator Loss: 0.09196873 Generator Loss: 2.98841166:  65%|██████████████████████████████████████████████████████████████████████▊                                      | 260/400 [13:37<07:17,  3.12s/it]
+Save the Generator_260
+Save the Generator_260
+Save the Generator_260
+Save the Generator_260
+
+
+Discriminator Loss: 0.00588544 Generator Loss: 5.87230110:  66%|███████████████████████████████████████████████████████████████████████▍                                     | 262/400 [13:40<07:10,  3.12s/it]
+Save the Generator_262
+Save the Generator_262
+Save the Generator_262
+Save the Generator_262
+
+
+Discriminator Loss: 1.08263636 Generator Loss: 1.77663171:  66%|███████████████████████████████████████████████████████████████████████▉                                     | 264/400 [13:47<07:05,  3.13s/it]
+Save the Generator_264
+Save the Generator_264
+Save the Generator_264
+Save the Generator_264
+
+
+
+Discriminator Loss: 0.55930984 Generator Loss: 1.45994031:  67%|████████████████████████████████████████████████████████████████████████▊                                    | 267/400 [13:56<07:03,  3.18s/it]
+Save the Generator_266
+Save the Generator_266
+Save the Generator_266
+Save the Generator_266
+
+
+Discriminator Loss: 0.94112611 Generator Loss: 0.98195726:  67%|█████████████████████████████████████████████████████████████████████████▎                                   | 269/400 [14:03<06:57,  3.19s/it]
+Save the Generator_268
+Save the Generator_268
+Save the Generator_268
+Save the Generator_268
+
+
+Discriminator Loss: 2.06411839 Generator Loss: 0.72427350:  68%|█████████████████████████████████████████████████████████████████████████▊                                   | 271/400 [14:09<06:51,  3.19s/it]
+Save the Generator_270
+Save the Generator_270
+Save the Generator_270
+Save the Generator_270
+
+Discriminator Loss: 1.07118297 Generator Loss: 1.04912210:  68%|██████████████████████████████████████████████████████████████████████████                                   | 272/400 [14:12<06:47,  3.18s/it]
+Save the Generator_272
+Save the Generator_272
+Save the Generator_272
+Save the Generator_272
+
+
+Discriminator Loss: 0.06025318 Generator Loss: 3.65123296:  68%|██████████████████████████████████████████████████████████████████████████▋                                  | 274/400 [14:19<06:44,  3.21s/it]
+Save the Generator_274
+Save the Generator_274
+Save the Generator_274
+Save the Generator_274
+
+
+
+Discriminator Loss: 0.14753526 Generator Loss: 3.29496646:  69%|███████████████████████████████████████████████████████████████████████████▍                                 | 277/400 [14:28<06:31,  3.19s/it]
+Save the Generator_276
+Save the Generator_276
+Save the Generator_276
+Save the Generator_276
+
+
+Discriminator Loss: 0.40755868 Generator Loss: 3.14734054:  70%|████████████████████████████████████████████████████████████████████████████                                 | 279/400 [14:34<06:20,  3.15s/it]
+Save the Generator_278
+Save the Generator_278
+Save the Generator_278
+Save the Generator_278
+
+
+Discriminator Loss: 1.75754273 Generator Loss: 0.40544325:  70%|████████████████████████████████████████████████████████████████████████████▌                                | 281/400 [14:41<06:13,  3.14s/it]
+Save the Generator_280
+Save the Generator_280
+Save the Generator_280
+Save the Generator_280
+
+
+Discriminator Loss: 1.19612682 Generator Loss: 0.43739912:  71%|█████████████████████████████████████████████████████████████████████████████                                | 283/400 [14:47<06:10,  3.16s/it]
+Save the Generator_282
+Save the Generator_282
+Save the Generator_282
+Save the Generator_282
+
+Discriminator Loss: 1.30644655 Generator Loss: 0.69201398:  71%|█████████████████████████████████████████████████████████████████████████████▍                               | 284/400 [14:50<06:08,  3.18s/it]
+Save the Generator_284
+Save the Generator_284
+Save the Generator_284
+Save the Generator_284
+
+
+Discriminator Loss: 1.59642935 Generator Loss: 0.54131889:  72%|█████████████████████████████████████████████████████████████████████████████▉                               | 286/400 [14:57<05:59,  3.16s/it]
+Save the Generator_286
+Save the Generator_286
+Save the Generator_286
+Save the Generator_286
+
+
+Discriminator Loss: 0.86956578 Generator Loss: 0.86898392:  72%|██████████████████████████████████████████████████████████████████████████████▍                              | 288/400 [15:03<05:48,  3.11s/it]
+Save the Generator_288
+Save the Generator_288
+Save the Generator_288
+Save the Generator_288
+
+
+
+Discriminator Loss: 0.13331388 Generator Loss: 2.73365474:  73%|███████████████████████████████████████████████████████████████████████████████▎                             | 291/400 [15:12<05:46,  3.18s/it]
+Save the Generator_290
+Save the Generator_290
+Save the Generator_290
+Save the Generator_290
+
+
+
+Discriminator Loss: 1.46417964 Generator Loss: 0.88168317:  73%|███████████████████████████████████████████████████████████████████████████████▊                             | 293/400 [15:19<05:38,  3.16s/it]
+Save the Generator_292
+Save the Generator_292
+Save the Generator_292
+Save the Generator_292
+
+
+Discriminator Loss: 1.15877175 Generator Loss: 0.59478426:  74%|████████████████████████████████████████████████████████████████████████████████▍                            | 295/400 [15:25<05:28,  3.13s/it]
+Save the Generator_294
+Save the Generator_294
+Save the Generator_294
+Save the Generator_294
+
+
+Discriminator Loss: 1.24729371 Generator Loss: 0.85613006:  74%|████████████████████████████████████████████████████████████████████████████████▉                            | 297/400 [15:31<05:23,  3.14s/it]
+Save the Generator_296
+Save the Generator_296
+Save the Generator_296
+Save the Generator_296
+
+
+Discriminator Loss: 0.23503998 Generator Loss: 2.47470355:  74%|█████████████████████████████████████████████████████████████████████████████████▏                           | 298/400 [15:37<05:21,  3.16s/it]
+Save the Generator_298
+Save the Generator_298
+Save the Generator_298
+Save the Generator_298
+
+
+Discriminator Loss: 0.09092806 Generator Loss: 8.37895679:  75%|█████████████████████████████████████████████████████████████████████████████████▊                           | 300/400 [15:41<05:13,  3.14s/it]
+Save the Generator_300
+Save the Generator_300
+Save the Generator_300
+Save the Generator_300
+
+
+Discriminator Loss: 1.17815614 Generator Loss: 3.52466893:  76%|██████████████████████████████████████████████████████████████████████████████████▎                          | 302/400 [15:47<05:11,  3.17s/it]
+Save the Generator_302
+Save the Generator_302
+Save the Generator_302
+Save the Generator_302
+
+
+
+Discriminator Loss: 0.38210115 Generator Loss: 3.57490659:  76%|███████████████████████████████████████████████████████████████████████████████████                          | 305/400 [15:56<05:01,  3.18s/it]
+Save the Generator_304
+Save the Generator_304
+Save the Generator_304
+Save the Generator_304
+
+
+Discriminator Loss: 1.19378388 Generator Loss: 4.94881821:  77%|███████████████████████████████████████████████████████████████████████████████████▋                         | 307/400 [16:03<04:55,  3.17s/it]
+Save the Generator_306
+Save the Generator_306
+Save the Generator_306
+Save the Generator_306
+
+
+Discriminator Loss: 0.44527787 Generator Loss: 1.84741676:  77%|████████████████████████████████████████████████████████████████████████████████████▏                        | 309/400 [16:09<04:47,  3.16s/it]
+Save the Generator_308
+Save the Generator_308
+Save the Generator_308
+Save the Generator_308
+
+
+Discriminator Loss: 1.15453565 Generator Loss: 1.08184230:  78%|████████████████████████████████████████████████████████████████████████████████████▋                        | 311/400 [16:15<04:40,  3.15s/it]
+Save the Generator_310
+Save the Generator_310
+Save the Generator_310
+Save the Generator_310
+
+Discriminator Loss: 1.55481946 Generator Loss: 0.66455483:  78%|█████████████████████████████████████████████████████████████████████████████████████                        | 312/400 [16:18<04:37,  3.15s/it]
+Save the Generator_312
+Save the Generator_312
+Save the Generator_312
+Save the Generator_312
+
+
+Discriminator Loss: 2.64400983 Generator Loss: 4.06516457:  78%|█████████████████████████████████████████████████████████████████████████████████████▌                       | 314/400 [16:25<04:30,  3.14s/it]
+Save the Generator_314
+Save the Generator_314
+Save the Generator_314
+Save the Generator_314
+
+
+Discriminator Loss: 1.13722551 Generator Loss: 0.64850938:  79%|██████████████████████████████████████████████████████████████████████████████████████                       | 316/400 [16:31<04:24,  3.15s/it]
+Save the Generator_316
+Save the Generator_316
+Save the Generator_316
+Save the Generator_316
+
+
+
+Discriminator Loss: 3.48662949 Generator Loss: 12.57145596:  80%|██████████████████████████████████████████████████████████████████████████████████████▏                     | 319/400 [16:40<04:13,  3.13s/it]
+Save the Generator_318
+Save the Generator_318
+Save the Generator_318
+Save the Generator_318
+
+
+Discriminator Loss: 1.44649756 Generator Loss: 1.32251167:  80%|███████████████████████████████████████████████████████████████████████████████████████▍                     | 321/400 [16:47<04:04,  3.10s/it]
+Save the Generator_320
+Save the Generator_320
+Save the Generator_320
+Save the Generator_320
+
+
+Discriminator Loss: 1.41576242 Generator Loss: 0.77918512:  81%|████████████████████████████████████████████████████████████████████████████████████████                     | 323/400 [16:53<04:01,  3.14s/it]
+Save the Generator_322
+Save the Generator_322
+Save the Generator_322
+Save the Generator_322
+
+
+Discriminator Loss: 1.12935233 Generator Loss: 0.92795718:  81%|████████████████████████████████████████████████████████████████████████████████████████▌                    | 325/400 [16:59<03:56,  3.16s/it]
+Save the Generator_324
+Save the Generator_324
+Save the Generator_324
+Save the Generator_324
+
+
+Discriminator Loss: 0.90358841 Generator Loss: 1.31891346:  82%|█████████████████████████████████████████████████████████████████████████████████████████                    | 327/400 [17:06<03:50,  3.15s/it]
+Save the Generator_326
+Save the Generator_326
+Save the Generator_326
+Save the Generator_326
+
+Discriminator Loss: 0.13379516 Generator Loss: 2.92884755:  82%|█████████████████████████████████████████████████████████████████████████████████████████▍                   | 328/400 [17:09<03:46,  3.15s/it]
+Save the Generator_328
+Save the Generator_328
+Save the Generator_328
+Save the Generator_328
+
+
+Discriminator Loss: 0.14281839 Generator Loss: 3.14846730:  82%|█████████████████████████████████████████████████████████████████████████████████████████▉                   | 330/400 [17:15<03:39,  3.14s/it]
+Save the Generator_330
+Save the Generator_330
+Save the Generator_330
+Save the Generator_330
+
+
+
+Discriminator Loss: 1.09742427 Generator Loss: 1.21997201:  83%|██████████████████████████████████████████████████████████████████████████████████████████▋                  | 333/400 [17:24<03:30,  3.15s/it]
+Save the Generator_332
+Save the Generator_332
+Save the Generator_332
+Save the Generator_332
+
+
+Discriminator Loss: 1.21237195 Generator Loss: 0.90532190:  84%|███████████████████████████████████████████████████████████████████████████████████████████▎                 | 335/400 [17:31<03:24,  3.15s/it]
+Save the Generator_334
+Save the Generator_334
+Save the Generator_334
+Save the Generator_334
+
+
+Discriminator Loss: 0.71019387 Generator Loss: 2.03068733:  84%|███████████████████████████████████████████████████████████████████████████████████████████▊                 | 337/400 [17:37<03:21,  3.19s/it]
+Save the Generator_336
+Save the Generator_336
+Save the Generator_336
+Save the Generator_336
+
+
+Discriminator Loss: 0.85854399 Generator Loss: 1.17007506:  85%|████████████████████████████████████████████████████████████████████████████████████████████▍                | 339/400 [17:44<03:14,  3.19s/it]
+Save the Generator_338
+Save the Generator_338
+Save the Generator_338
+Save the Generator_338
+
+
+Discriminator Loss: 2.42867947 Generator Loss: 0.81281060:  85%|████████████████████████████████████████████████████████████████████████████████████████████▉                | 341/400 [17:50<03:04,  3.13s/it]
+Save the Generator_340
+Save the Generator_340
+Save the Generator_340
+Save the Generator_340
+
+Discriminator Loss: 1.16579545 Generator Loss: 0.52350193:  86%|█████████████████████████████████████████████████████████████████████████████████████████████▏               | 342/400 [17:53<03:00,  3.11s/it]
+Save the Generator_342
+Save the Generator_342
+Save the Generator_342
+Save the Generator_342
+
+
+Discriminator Loss: 1.60281396 Generator Loss: 3.72003746:  86%|█████████████████████████████████████████████████████████████████████████████████████████████▋               | 344/400 [17:59<02:53,  3.10s/it]
+Save the Generator_344
+Save the Generator_344
+Save the Generator_344
+Save the Generator_344
+
+
+
+Discriminator Loss: 0.75851494 Generator Loss: 1.05754447:  87%|██████████████████████████████████████████████████████████████████████████████████████████████▌              | 347/400 [18:09<02:47,  3.16s/it]
+Save the Generator_346
+Save the Generator_346
+Save the Generator_346
+Save the Generator_346
+
+
+Discriminator Loss: 4.47169495 Generator Loss: 2.78373146:  87%|███████████████████████████████████████████████████████████████████████████████████████████████              | 349/400 [18:15<02:42,  3.18s/it]
+Save the Generator_348
+Save the Generator_348
+Save the Generator_348
+Save the Generator_348
+
+
+Discriminator Loss: 0.64590484 Generator Loss: 1.72640264:  88%|███████████████████████████████████████████████████████████████████████████████████████████████▋             | 351/400 [18:21<02:32,  3.11s/it]
+Save the Generator_350
+Save the Generator_350
+Save the Generator_350
+Save the Generator_350
+
+
+Discriminator Loss: 0.09961453 Generator Loss: 5.68284178:  88%|████████████████████████████████████████████████████████████████████████████████████████████████▏            | 353/400 [18:27<02:27,  3.15s/it]
+Save the Generator_352
+Save the Generator_352
+Save the Generator_352
+Save the Generator_352
+
+
+Discriminator Loss: 1.35334063 Generator Loss: 0.68927103:  89%|████████████████████████████████████████████████████████████████████████████████████████████████▋            | 355/400 [18:34<02:22,  3.17s/it]
+Save the Generator_354
+Save the Generator_354
+Save the Generator_354
+Save the Generator_354
+
+Discriminator Loss: 0.21945101 Generator Loss: 2.72527003:  89%|█████████████████████████████████████████████████████████████████████████████████████████████████            | 356/400 [18:37<02:19,  3.16s/it]
+Save the Generator_356
+Save the Generator_356
+Save the Generator_356
+Save the Generator_356
+
+
+
+Discriminator Loss: 0.23520157 Generator Loss: 3.18664336:  90%|█████████████████████████████████████████████████████████████████████████████████████████████████▊           | 359/400 [18:46<02:09,  3.17s/it]
+Save the Generator_358
+Save the Generator_358
+Save the Generator_358
+Save the Generator_358
+
+
+Discriminator Loss: 2.15814495 Generator Loss: 1.10863590:  90%|██████████████████████████████████████████████████████████████████████████████████████████████████▎          | 361/400 [18:53<02:02,  3.15s/it]
+Save the Generator_360
+Save the Generator_360
+Save the Generator_360
+Save the Generator_360
+
+
+Discriminator Loss: 1.42749214 Generator Loss: 0.88681930:  91%|██████████████████████████████████████████████████████████████████████████████████████████████████▉          | 363/400 [18:59<01:57,  3.17s/it]
+Save the Generator_362
+Save the Generator_362
+Save the Generator_362
+Save the Generator_362
+
+
+Discriminator Loss: 0.86113465 Generator Loss: 2.06695008:  91%|███████████████████████████████████████████████████████████████████████████████████████████████████▍         | 365/400 [19:05<01:49,  3.13s/it]
+Save the Generator_364
+Save the Generator_364
+Save the Generator_364
+Save the Generator_364
+
+
+Discriminator Loss: 1.22456205 Generator Loss: 1.03710401:  92%|████████████████████████████████████████████████████████████████████████████████████████████████████         | 367/400 [19:12<01:44,  3.18s/it]
+Save the Generator_366
+Save the Generator_366
+Save the Generator_366
+Save the Generator_366
+
+Discriminator Loss: 0.83189511 Generator Loss: 1.45429635:  92%|████████████████████████████████████████████████████████████████████████████████████████████████████▎        | 368/400 [19:15<01:42,  3.21s/it]
+Save the Generator_368
+Save the Generator_368
+Save the Generator_368
+Save the Generator_368
+
+
+
+Discriminator Loss: 0.69031620 Generator Loss: 1.81798768:  93%|█████████████████████████████████████████████████████████████████████████████████████████████████████        | 371/400 [19:25<01:32,  3.18s/it]
+Save the Generator_370
+Save the Generator_370
+Save the Generator_370
+Save the Generator_370
+
+
+Discriminator Loss: 2.18472099 Generator Loss: 1.50906539:  93%|█████████████████████████████████████████████████████████████████████████████████████████████████████▋       | 373/400 [19:31<01:24,  3.14s/it]
+Save the Generator_372
+Save the Generator_372
+Save the Generator_372
+Save the Generator_372
+
+
+Discriminator Loss: 0.50917876 Generator Loss: 2.07948756:  94%|██████████████████████████████████████████████████████████████████████████████████████████████████████▏      | 375/400 [19:37<01:18,  3.13s/it]
+Save the Generator_374
+Save the Generator_374
+Save the Generator_374
+Save the Generator_374
+
+
+Discriminator Loss: 0.49263179 Generator Loss: 3.38848948:  94%|██████████████████████████████████████████████████████████████████████████████████████████████████████▋      | 377/400 [19:43<01:11,  3.09s/it]
+Save the Generator_376
+Save the Generator_376
+Save the Generator_376
+Save the Generator_376
+
+
+Discriminator Loss: 0.45252758 Generator Loss: 1.11156166:  95%|███████████████████████████████████████████████████████████████████████████████████████████████████████▎     | 379/400 [19:49<01:05,  3.13s/it]
+Save the Generator_378
+Save the Generator_378
+Save the Generator_378
+Save the Generator_378
+
+
+Discriminator Loss: 1.23527753 Generator Loss: 3.28150487:  95%|███████████████████████████████████████████████████████████████████████████████████████████████████████▊     | 381/400 [19:56<01:00,  3.16s/it]
+Save the Generator_380
+Save the Generator_380
+Save the Generator_380
+Save the Generator_380
+
+
+Discriminator Loss: 0.71720070 Generator Loss: 3.60702181:  96%|████████████████████████████████████████████████████████████████████████████████████████████████████████     | 382/400 [20:02<00:57,  3.18s/it]
+Save the Generator_382
+Save the Generator_382
+Save the Generator_382
+Save the Generator_382
+
+
+Discriminator Loss: 0.77668244 Generator Loss: 3.50860906:  96%|████████████████████████████████████████████████████████████████████████████████████████████████████████▋    | 384/400 [20:05<00:50,  3.13s/it]
+Save the Generator_384
+Save the Generator_384
+Save the Generator_384
+Save the Generator_384
+
+
+
+Discriminator Loss: 0.07066070 Generator Loss: 5.61719131:  97%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▍   | 387/400 [20:15<00:40,  3.14s/it]
+Save the Generator_386
+Save the Generator_386
+Save the Generator_386
+Save the Generator_386
+
+
+Discriminator Loss: 1.35926223 Generator Loss: 4.14635992:  97%|██████████████████████████████████████████████████████████████████████████████████████████████████████████   | 389/400 [20:21<00:34,  3.18s/it]
+Save the Generator_388
+Save the Generator_388
+Save the Generator_388
+Save the Generator_388
+
+
+Discriminator Loss: 1.68478727 Generator Loss: 1.85244298:  98%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▌  | 391/400 [20:27<00:28,  3.19s/it]
+Save the Generator_390
+Save the Generator_390
+Save the Generator_390
+Save the Generator_390
+
+
+Discriminator Loss: 0.88606048 Generator Loss: 2.05476594:  98%|███████████████████████████████████████████████████████████████████████████████████████████████████████████  | 393/400 [20:34<00:22,  3.17s/it]
+Save the Generator_392
+Save the Generator_392
+Save the Generator_392
+Save the Generator_392
+
+
+Discriminator Loss: 0.90059996 Generator Loss: 1.25992930:  99%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▋ | 395/400 [20:40<00:15,  3.11s/it]
+Save the Generator_394
+Save the Generator_394
+Save the Generator_394
+Save the Generator_394
+
+Discriminator Loss: 0.17912889 Generator Loss: 2.91693211:  99%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▉ | 396/400 [20:43<00:12,  3.16s/it]
+Save the Generator_396
+Save the Generator_396
+Save the Generator_396
+Save the Generator_396
+
+
+
+Discriminator Loss: 2.30003047 Generator Loss: 1.41502702: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████▋| 399/400 [20:53<00:03,  3.18s/it]
+Save the Generator_398
+Save the Generator_398
+Save the Generator_398
+Save the Generator_398
+
+Discriminator Loss: 0.12531194 Generator Loss: 6.26363373: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 400/400 [20:56<00:00,  3.14s/it]
