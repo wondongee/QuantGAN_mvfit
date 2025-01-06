@@ -27,7 +27,7 @@ class GANTrainer:
         self.criterion = nn.BCELoss()
 
         # Directory setup
-        full_name = f'{config.file_name}_{config.n_epochs}_{config.batch_size}_G_lr_{config.lr_G}_D_lr_{config.lr_D}_noise_{config.noise_dim}_hidden_dim_{config.G_hidden_dim}'
+        full_name = f'{config.file_name}_{config.n_epochs}_{config.batch_size}_G_lr_{config.lr_G}_D_lr_{config.lr_D}_noise_{config.noise_dim}_hidden_dim_{config.G_hidden_dim}_split'
         self.results_dir = f'./results/models/{full_name}'        
         os.makedirs(self.results_dir, exist_ok=True)
 

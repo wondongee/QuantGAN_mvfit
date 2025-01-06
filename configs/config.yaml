@@ -10,7 +10,7 @@ n_steps: 128
 device: cuda
 seed: 0
 batch_size: 256
-n_epochs: 200
+n_epochs: 300
 
 # Algorithm-related settings
 algo: QuantGAN
